@@ -17,7 +17,8 @@ componentDidMount() {
   render() {
     return (
       <div>
-          <Themes path='/themes' render={(routerProps) => <Themes {...routerProps} themes={this.props.themes}/>}/>
+        <ThemeInput/><br/>
+        <Themes path='/themes' render={(routerProps) => <Themes {...routerProps} themes={this.props.themes}/>}/>
       </div>
       
     )

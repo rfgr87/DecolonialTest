@@ -10,13 +10,10 @@ const Themes = (props) => {
         <li key={theme.id}>
           <Link to={`/themes/${theme.id}`}>{theme.name}</Link>
 
-        </li> )}
-        
+        </li> )}    
         <br></br><br></br>
         <Link to='/'> Home</Link>
-
     </div>
-
   )
 }
 
