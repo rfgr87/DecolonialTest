@@ -1,15 +1,9 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {Route, Switch} from 'react-router-dom'
-import ReviewInput from '../components/ReviewInput'
-import Reviews from '../components/Reviews'
-import {fetchReviews} from '../actions/fetchReviews'
-import ReviewNavBar from '../components/ReviewNavBar'
-import Review from '../components/Review'
-
-//import rootReducers from '../reducers/rootReducers'
-import reviewReducer from '../reducers/reviewReducer'
-import museumReducer from '../reducers/museumReducer'
+import Themes from '../components/Themes'
+import {fetchThemes} from '../actions/fetchThemes'
+import themeReducer from '../reducers/themeReducer'
 
 
 class ForumContainer extends React.Component {
@@ -32,7 +26,7 @@ componentDidMount() {
 
 const mapStateToProps = state => {
   return {
-    reviews: state.themeReducer.themes
+    themes: state.themeReducer.themes
   }
 }
 
