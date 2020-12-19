@@ -2,9 +2,8 @@ import React from 'react'
 import {Redirect} from 'react-router-dom'
 import {Link} from 'react-router-dom'
 import {Route} from 'react-router-dom'
+import Post from '../components/Post'
 
-
-import ReviewsContainer from '../containers/ReviewsContainer'
 
 const Theme = (props) => {
 
@@ -23,7 +22,7 @@ const Theme = (props) => {
         {theme ? theme.name : null}
       </h2><br>
       </br>
-      {theme && <PostContainer theme={theme}/>}
+      {theme && <Post theme={theme}/>}
       <br></br><br></br>
 
         <Link to='/'> Home</Link>

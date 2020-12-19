@@ -1,18 +1,17 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-class NavBar extends Components {
+const NavBar = (props) => {
 
-render(){
   return (
     <div>
-      <Link to='/quienessomos'> Quienes Somos  </Link>
-      <Link to='/composers'> Compositores</Link>
-      <Link to='/blog'> Blog</Link>
-      <Link to='/forum'> Forum</Link>
+      <Link to='/quienessomos'> Quienes Somos  </Link><br></br>
+      <Link to='/compositores'> Compositores</Link><br></br>
+      <Link to='/blog'> Blog</Link><br></br>
+      <Link to='/forum'> Forum</Link><br></br>
     </div>
   )
 }
-}
+
 
 export default NavBar

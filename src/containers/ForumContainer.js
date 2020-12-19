@@ -1,10 +1,9 @@
 import React from 'react'
 import {connect} from 'react-redux'
-import {Route, Switch} from 'react-router-dom'
 import Themes from '../components/Themes'
+import ThemeInput from '../components/ThemeInput'
 import {fetchThemes} from '../actions/fetchThemes'
 import themeReducer from '../reducers/themeReducer'
-
 
 class ForumContainer extends React.Component {
 

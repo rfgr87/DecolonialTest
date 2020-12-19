@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-class QuienesSomos extends Component {
+class QuienesSomos extends React.Component {
 
 render(){
   return (
