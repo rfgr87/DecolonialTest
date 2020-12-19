@@ -33,8 +33,8 @@ state = {}
             <Switch>
               <Route path='/quienessomos' component={QuienesSomos}/>
               <Route path='/compositores' render={(routerProps) => <Composers {...routerProps} composers={this.props.composers}/>}/>
-              <Route path='/compositores/composer1' component = {Composer1}/>
-              <Route path='/compositores/composer2' component = {Composer2}/>
+              <Route path='/composer1' component = {Composer1}/>
+              <Route path='/composer2' component = {Composer2}/>
               <Route path='/blog' component={Blog}/>
               <Route path='/forum' component={ForumContainer}/>
             </Switch>

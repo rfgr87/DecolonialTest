@@ -12,14 +12,14 @@ const Composers = () => {
       return (
 
         <ul>
-        <Link to={'/compositores/composer1'}>Composer1</Link><br></br>      
-        <Link to={'/compositores/composer2'}>Composer2</Link>
+        <Link to={'/composer1'}>Composer1</Link><br></br>      
+        <Link to={'/composer2'}>Composer2</Link>
 
      
-            <Switch>
-              <Route path='/compositores/composer1' component = {Composer1}/>
-              <Route path='/compositores/composer2' component = {Composer2}/>
-            </Switch>
+            
+              <Route path='/composer1' component = {Composer1}/>
+              <Route path='/composer2' component = {Composer2}/>
+            
 
         </ul>
       )
