@@ -1,30 +1,24 @@
 import React from 'react'
-import {connect} from 'react-redux'
 import {Route, Switch} from 'react-router-dom'
-import {fetchMuseums} from '../actions/fetchMuseums'
 import QuienesSomos from '../components/QuienesSomos'
-import Museum from '../components/Museum'
-import MuseumInput from '../components/MuseumInput'
+import Blog from '../components/Blog'
+import ForumContainer from '../components/ForumContainer'
 import NavBar from '../components/NavBar'
-import LikeButton from '../components/LikeButton'
+import Composer1 from '../components/Composer1'
+import Composer2 from '../components/Composer2'
 
-import App from '../App'
 
 class MainPageContainer extends React.Component {
-
-  state = {}
-
-  componentDidMount() {
-    this.props.fetchComposers()
-  }
 
   render() {
       return (
           <div>
             <NavBar/>
             <Switch>
-              <Route path='/museums/quienessomos' component={QuienesSomos}/>
+              <Route path='/quienessomos' component={QuienesSomos}/>
               <Route path='/composers' render={(routerProps) => <Composers {...routerProps} composers={this.props.composers}/>}/>
+              <Route path='/composers/composer1' component = {Composer1}/>
+              <Route path='/composers/composer2' component = {Composer2}/>
               <Route path='/blog' component={Blog}/>
               <Route path='/forum' component={ForumContainer}/>
             </Switch>
@@ -33,10 +27,4 @@ class MainPageContainer extends React.Component {
   }
 }
 
-const mapStateToProps = state => {
-  return {
-    museums: state.museumReducer.museums
-  }
-}
-
-export default connect(mapStateToProps, {fetchMuseums})(MuseumContainer)
+export default MainPageContainer
