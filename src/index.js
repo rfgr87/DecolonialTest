@@ -5,16 +5,17 @@ import thunk from 'redux-thunk'
 import { Provider } from 'react-redux'
 import {BrowserRouter as Router} from 'react-router-dom'
 import rootReducers from './reducers/rootReducers'
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 let store = createStore(rootReducers, composeEnhancers(applyMiddleware(thunk)))
 
 ReactDOM.render(
-<Provider store={store}>  
+
+<Provider store={store}>
   <Router>
     <App />
   </Router>

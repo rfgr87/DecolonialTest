@@ -1,10 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Route, Switch} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 import Composer1 from '../components/Composer1'
 import Composer2 from '../components/Composer2'
-
-
 
 const Composers = () => {
 

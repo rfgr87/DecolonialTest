@@ -1,6 +1,6 @@
 import React from 'react';
 import MainPageContainer from './containers/MainPageContainer'
-import "./css/main.css"
+import "./App.css"
 
 class App extends React.Component {
 

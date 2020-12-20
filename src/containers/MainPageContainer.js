@@ -11,8 +11,8 @@ import {fetchThemes} from '../actions/fetchThemes'
 import ForumContainer from '../containers/ForumContainer'
 import themeReducer from '../reducers/themeReducer'
 import {Link} from 'react-router-dom'
-
-
+import ScriptTag from 'react-script-tag';
+import interval2 from '../indexDynamic.js'
 
 class MainPageContainer extends React.Component {
 
@@ -21,6 +21,7 @@ state = {}
   componentDidMount() {
     this.props.fetchThemes()
   }
+  
 
   render() {
       return (
@@ -40,6 +41,12 @@ state = {}
             </Switch>
           </div>
       )
+  }
+}
+
+const styles = {
+  title: {
+      fontSize: 48,
   }
 }
 

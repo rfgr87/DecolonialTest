@@ -3,13 +3,12 @@ import {Link} from 'react-router-dom'
 
 const Composer2 = () => {
 
-
     return (
   
       <div>
         <h2>
           Composer2
-        </h2>
+        </h2><br></br>
         <h3>This is information about composer2</h3><br></br>
         <h3>This is the spot for images of scores of the composer</h3><br></br>
         <h3>This is the spot for bandcamp links, audio, soundcloud links etc.</h3><br></br>
@@ -19,4 +18,4 @@ const Composer2 = () => {
     )
   }
   
-  export default Composer2
+export default Composer2
