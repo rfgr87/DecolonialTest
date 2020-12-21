@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     justifyContent: 'center',
     alignItems: 'center',
-    paddingLeft: '35%',
+    paddingLeft: '30%',
     // [theme.breakpoints.up('md')]: {
     //   padding: theme.spacing(10),
     //   paddingRight: 0,
