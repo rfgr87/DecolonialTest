@@ -12,14 +12,7 @@ export default function postReducer(state = {posts: []}, action) {
             return post
           }
         })
-      case 'ADD_POST':
-        let postsThree = state.posts.map(post => {
-          if (post.id === post.payload.id) {
-            return post.payload
-          } else {
-            return post
-          }
-        })
+      
     default:
         return state
     }

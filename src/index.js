@@ -5,7 +5,7 @@ import thunk from 'redux-thunk'
 import { Provider } from 'react-redux'
 import {BrowserRouter as Router} from 'react-router-dom'
 import rootReducers from './reducers/rootReducers'
-import App from './App';
+import Blog from './components/Blog';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -17,7 +17,7 @@ ReactDOM.render(
 
 <Provider store={store}>
   <Router>
-    <App />
+    <Blog />
   </Router>
 </Provider>,  
 document.getElementById('root')

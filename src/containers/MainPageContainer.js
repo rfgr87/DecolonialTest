@@ -13,6 +13,7 @@ import themeReducer from '../reducers/themeReducer'
 import {Link} from 'react-router-dom'
 import ScriptTag from 'react-script-tag';
 import interval2 from '../indexDynamic.js'
+import Blog2 from '../components/Blog2'
 
 class MainPageContainer extends React.Component {
 
@@ -36,7 +37,7 @@ state = {}
               <Route path='/compositores' render={(routerProps) => <Composers {...routerProps} composers={this.props.composers}/>}/>
               <Route path='/composer1' component = {Composer1}/>
               <Route path='/composer2' component = {Composer2}/>
-              <Route path='/blog' component={Blog}/>
+              <Route path='/blog' component={Blog2}/>
               <Route path='/forum' component={ForumContainer}/>
             </Switch>
           </div>
