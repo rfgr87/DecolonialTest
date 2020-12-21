@@ -8,6 +8,8 @@ import Composer2 from './Composer2'
 import ForumContainer from '../containers/ForumContainer'
 import {Link} from 'react-router-dom'
 import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+
 
 
 
@@ -21,6 +23,7 @@ class HeaderContainer extends React.Component {
   render() {
       return (
         <div>
+       
         <Link to='/quienessomos'>  Quienes Somos  </Link>
         <Link to='/compositores'>  Compositores  </Link>
         <Link to='/blog'>  Blog </Link>

@@ -10,13 +10,15 @@ import Composers from '../components/Composers';
 import Composer1 from '../components/Composer1';
 import Composer2 from '../components/Composer2';
 import QuienesSomos from '../components/QuienesSomos';
-import {Route, Switch} from 'react-router-dom'
+import { HashRouter as Router, Route} from 'react-router-dom';
 import Blog2 from '../components/Blog2'
 import ForumContainer from '../containers/ForumContainer'
 import HeaderContainer from '../components/HeaderContainer'
 import Toolbar from '@material-ui/core/Toolbar';
 import NavBar from '../components/NavBar'
 import { CenterFocusStrong } from '@material-ui/icons';
+import { Switch} from 'react-router-dom'
+
 
 
 const useStyles = makeStyles((theme) => ({
@@ -70,7 +72,15 @@ export default function Header(props) {
         <Link to='/compositores'>  Compositores  </Link>
         <Link to='/blog'>  Blog  </Link>
         <Link to='/forum'>  Forum  </Link>
-      </Toolbar>       
+        <Switch>
+        <Route exact path='/quienessomos'> <QuienesSomos/></Route>
+        <Route exact path='/compositores'> <Composers/></Route>
+        <Route exact path='/composer1'> <Composer1/></Route>
+        <Route exact path='/composer2'> <Composer2/></Route>
+        <Route exact path='/blog'> <Blog2/></Route>
+        <Route exact path='/forum'> <ForumContainer/></Route>
+        </Switch>
+      </Toolbar>      
     </React.Fragment>
   );
 }
