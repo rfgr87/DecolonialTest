@@ -18,6 +18,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import NavBar from '../components/NavBar'
 import { CenterFocusStrong } from '@material-ui/icons';
 import { Switch} from 'react-router-dom'
+import HeaderToolbar from '../components/HeaderToolbar'
 
 
 
@@ -67,11 +68,7 @@ export default function Header(props) {
           Sign up
         </Button>
       </Toolbar>
-      <Toolbar component="nav" variant="dense" className={classes.toolbarSecondary}>
-        <Link to='/quienessomos'>  Quienes Somos  </Link>
-        <Link to='/compositores'>  Compositores  </Link>
-        <Link to='/blog'>  Blog  </Link>
-        <Link to='/forum'>  Forum  </Link>
+      <HeaderToolbar></HeaderToolbar>
         <Switch>
         <Route exact path='/quienessomos'> <QuienesSomos/></Route>
         <Route exact path='/compositores'> <Composers/></Route>
@@ -80,7 +77,6 @@ export default function Header(props) {
         <Route exact path='/blog'> <Blog2/></Route>
         <Route exact path='/forum'> <ForumContainer/></Route>
         </Switch>
-      </Toolbar>      
     </React.Fragment>
   );
 }
