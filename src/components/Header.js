@@ -69,14 +69,7 @@ export default function Header(props) {
         </Button>
       </Toolbar>
       <HeaderToolbar></HeaderToolbar>
-        <Switch>
-        <Route exact path='/quienessomos'> <QuienesSomos/></Route>
-        <Route exact path='/compositores'> <Composers/></Route>
-        <Route exact path='/composer1'> <Composer1/></Route>
-        <Route exact path='/composer2'> <Composer2/></Route>
-        <Route exact path='/blog'> <Blog2/></Route>
-        <Route exact path='/forum'> <ForumContainer/></Route>
-        </Switch>
+        
     </React.Fragment>
   );
 }
