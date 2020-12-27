@@ -11,10 +11,6 @@ import { HashRouter as Router, Route} from 'react-router-dom';
 import { Switch} from 'react-router-dom';
 import ForumContainer from '../containers/ForumContainer'
 
-
-
-
-
 const useStyles = makeStyles((theme) => ({
     toolbar: {
       borderBottom: `1px solid ${theme.palette.divider}`,
@@ -52,13 +48,14 @@ const useStyles = makeStyles((theme) => ({
         <Link to='/forum'>  Forum  </Link>
         </Toolbar>   
         <Switch>
-        <Route exact path='/quienessomos'> <QuienesSomos/></Route>
-        <Route exact path='/compositores'> <Composers/></Route>
-        <Route exact path='/composer1'> <Composer1/></Route>
-        <Route exact path='/composer2'> <Composer2/></Route>
-        <Route exact path='/blog'> <Blog2/></Route>
-        <Route exact path='/forum'> <ForumContainer/></Route>
-        </Switch>
+        <Route exact path='/quienessomos' component={QuienesSomos}/>
+        <Route exact path='/compositores' component={Composers}/>
+        <Route exact path='/composer1'  component={Composer1}/>
+        <Route exact path='/composer2' component={Composer2}/>
+        <Route exact path='/blog' component={Blog2}/>
+        <Route exact path='/forum' component= {ForumContainer}/>
+        </Switch>   
+        
         </div>
         
 

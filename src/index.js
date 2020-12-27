@@ -5,8 +5,8 @@ import thunk from 'redux-thunk'
 import { Provider } from 'react-redux'
 import {BrowserRouter as Router} from 'react-router-dom'
 import rootReducers from './reducers/rootReducers'
-import Blog from './components/Blog';
 import reportWebVitals from './reportWebVitals';
+import App from './App'
 
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
@@ -17,7 +17,7 @@ ReactDOM.render(
 
 <Provider store={store}>
   <Router>
-    <Blog />
+    <App />
   </Router>
 </Provider>,  
 document.getElementById('root')

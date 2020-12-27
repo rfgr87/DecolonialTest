@@ -75,7 +75,7 @@ const sidebar = {
 };
 
 
-export default function Blog() {
+export default function Home() {
   const classes = useStyles();
 
   return (
@@ -84,6 +84,7 @@ export default function Blog() {
       <CssBaseline />
       <Container maxWidth="lg">
         <Header title="Colectivo Simbiosis" />
+        
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={5}>
@@ -105,3 +106,4 @@ export default function Blog() {
     </React.Fragment>
   );
 }
+

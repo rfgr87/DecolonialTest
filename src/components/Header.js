@@ -68,8 +68,15 @@ export default function Header(props) {
           Sign up
         </Button>
       </Toolbar>
-      <HeaderToolbar></HeaderToolbar>
-        
+      <HeaderToolbar></HeaderToolbar>   
+      <Switch>
+        <Route exact path='/quienessomos' component={QuienesSomos}/>
+        <Route exact path='/compositores' component={Composers}/>
+        <Route exact path='/composer1'  component={Composer1}/>
+        <Route exact path='/composer2' component={Composer2}/>
+        <Route exact path='/blog' component={Blog2}/>
+        <Route exact path='/forum' component= {ForumContainer}/>
+        </Switch>   
     </React.Fragment>
   );
 }
