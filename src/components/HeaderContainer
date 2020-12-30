@@ -31,8 +31,6 @@ class HeaderContainer extends React.Component {
             <Switch>
               <Route path='/quienessomos' component={QuienesSomos}/>
               <Route path='/compositores' render={(routerProps) => <Composers {...routerProps} composers={this.props.composers}/>}/>
-              <Route path='/composer1' component = {Composer1}/>
-              <Route path='/composer2' component = {Composer2}/>
               <Route path='/blog' component={Blog2}/>
               <Route path='/forum' component={ForumContainer}/>
             </Switch>
@@ -41,4 +39,4 @@ class HeaderContainer extends React.Component {
   }
 }
 
-  export default HeaderContainer
+export default HeaderContainer

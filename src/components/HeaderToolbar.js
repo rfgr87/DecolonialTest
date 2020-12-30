@@ -9,7 +9,10 @@ import QuienesSomos from '../components/QuienesSomos';
 import Blog2 from '../components/Blog2';
 import { HashRouter as Router, Route} from 'react-router-dom';
 import { Switch} from 'react-router-dom';
-import ForumContainer from '../containers/ForumContainer'
+import ForumContainer from "../containers/ForumContainer";
+import Home from "../components/Home";
+import MainFeaturedPost from './MainFeaturedPost';
+import image1 from './foto-simbiosis1.jpg';
 
 const useStyles = makeStyles((theme) => ({
     toolbar: {
@@ -32,6 +35,13 @@ const useStyles = makeStyles((theme) => ({
     }
   }));
 
+  const mainFeaturedPost = {
+    title: 'Colectivo Simbiosis',
+    image: image1,
+    imgText: 'main image description',
+  };
+  
+
 
 
   const HeaderToolbar = () => {
@@ -41,26 +51,17 @@ const useStyles = makeStyles((theme) => ({
 
     return (
       <div>
-        <Toolbar component="nav" variant="dense" className={classes.toolbarSecondary}>
-        <Link to='/quienessomos'>  Quienes Somos  </Link>
-        <Link to='/compositores'>  Compositores  </Link>
-        <Link to='/blog'>  Blog  </Link>
-        <Link to='/forum'>  Forum  </Link>
-        </Toolbar>   
-        <Switch>
-        <Route exact path='/quienessomos' component={QuienesSomos}/>
-        <Route exact path='/compositores' component={Composers}/>
-        <Route exact path='/composer1'  component={Composer1}/>
-        <Route exact path='/composer2' component={Composer2}/>
-        <Route exact path='/blog' component={Blog2}/>
-        <Route exact path='/forum' component= {ForumContainer}/>
-        </Switch>   
-        
+       
+          <Toolbar component="nav" variant="dense" className={classes.toolbarSecondary}>
+          <Link to='/quienessomos'>  Quienes Somos  </Link>
+          <Link to='/compositores'>  Compositores  </Link>
+          <Link to='/blog'>  Blog  </Link>
+          <Link to='/forum'>  Forum  </Link>
+        </Toolbar>
+       
         </div>
-        
-
-    )
-  }
+  )
+}
 
   
 export default HeaderToolbar

@@ -13,13 +13,19 @@ import QuienesSomos from '../components/QuienesSomos';
 import { HashRouter as Router, Route} from 'react-router-dom';
 import Blog2 from '../components/Blog2'
 import ForumContainer from '../containers/ForumContainer'
-import HeaderContainer from '../components/HeaderContainer'
 import Toolbar from '@material-ui/core/Toolbar';
 import NavBar from '../components/NavBar'
 import { CenterFocusStrong } from '@material-ui/icons';
-import { Switch} from 'react-router-dom'
-import HeaderToolbar from '../components/HeaderToolbar'
+import { Switch} from 'react-router-dom';
+import HeaderToolbar from '../components/HeaderToolbar';
+import MainFeaturedPost from './MainFeaturedPost';
+import image1 from './foto-simbiosis1.jpg';
 
+const mainFeaturedPost = {
+  title: 'Colectivo Simbiosis',
+  image: image1,
+  imgText: 'main image description',
+};
 
 
 const useStyles = makeStyles((theme) => ({
@@ -68,15 +74,7 @@ export default function Header(props) {
           Sign up
         </Button>
       </Toolbar>
-      <HeaderToolbar></HeaderToolbar>   
-      <Switch>
-        <Route exact path='/quienessomos' component={QuienesSomos}/>
-        <Route exact path='/compositores' component={Composers}/>
-        <Route exact path='/composer1'  component={Composer1}/>
-        <Route exact path='/composer2' component={Composer2}/>
-        <Route exact path='/blog' component={Blog2}/>
-        <Route exact path='/forum' component= {ForumContainer}/>
-        </Switch>   
+      <HeaderToolbar></HeaderToolbar>  
     </React.Fragment>
   );
 }

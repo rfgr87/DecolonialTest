@@ -14,7 +14,7 @@ import Footer from './Footer';
 import post1 from './blog-post.1.md';
 import post2 from './blog-post.2.md';
 import post3 from './blog-post.3.md';
-import image1 from './foto-simbiosis1.jpg'
+import image1 from './foto-simbiosis1.jpg';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -74,7 +74,6 @@ const sidebar = {
   ],
 };
 
-
 export default function Home() {
   const classes = useStyles();
 
@@ -82,12 +81,11 @@ export default function Home() {
    
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lg">
-        <Header title="Colectivo Simbiosis" />
-        
+      <Container maxWidth="lg">       
+        <Header title="Colectivo Simbiosis" />       
         <main>
-          <MainFeaturedPost post={mainFeaturedPost} />
-          <Grid container spacing={5}>
+        <MainFeaturedPost post={mainFeaturedPost} />
+        <Grid container spacing={5}>
             {featuredPosts.map((post) => (
               <FeaturedPost key={post.title} post={post} />
             ))}
@@ -106,4 +104,3 @@ export default function Home() {
     </React.Fragment>
   );
 }
-
