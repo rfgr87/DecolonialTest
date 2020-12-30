@@ -15,18 +15,58 @@ import post1 from './blog-post.1.md';
 import post2 from './blog-post.2.md';
 import post3 from './blog-post.3.md';
 import image1 from './foto-simbiosis1.jpg';
+import image5 from './foto-simbiosis5.jpg';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link';
+import Logo from '../components/Logo';
+
+
 
 
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
     marginTop: theme.spacing(3),
   },
+  mainFeaturedPost: {
+    position: 'relative',
+    backgroundColor: theme.palette.grey[100],
+    color: theme.palette.common.white,
+    marginBottom: theme.spacing(10),
+    backgroundImage: image1,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    height: 700
+
+  },
+  overlay: {
+    position: 'absolute',
+    top: 0,
+    bottom: 0,
+    right: 0,
+    left: 0,
+    backgroundColor: 'rgba(0,0,0,.3)',
+  },
+  mainFeaturedPostContent: {
+    position: 'absolute',
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingLeft: '30%',
+  },
+  mainFeaturedPostContent2: {
+    position: 'absolute',
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingLeft: '30%',
+  },
 }));
 
-const mainFeaturedPost = {
-  title: 'Colectivo Simbiosis',
-  image: image1,
-  imgText: 'main image description',
+
+
+
+const mainFeaturedPost2 = {
+  image: image5,
 };
 
 const featuredPosts = [
@@ -81,10 +121,10 @@ export default function Home() {
    
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lg">       
-        <Header title="Colectivo Simbiosis" />       
+      <Container maxWidth="lg">  
+      <Header title="Colectivo Simbiosis" />        
+        <Logo post={mainFeaturedPost2} />  
         <main>
-        <MainFeaturedPost post={mainFeaturedPost} />
         <Grid container spacing={5}>
             {featuredPosts.map((post) => (
               <FeaturedPost key={post.title} post={post} />

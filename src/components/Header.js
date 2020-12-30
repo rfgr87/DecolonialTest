@@ -20,6 +20,8 @@ import { Switch} from 'react-router-dom';
 import HeaderToolbar from '../components/HeaderToolbar';
 import MainFeaturedPost from './MainFeaturedPost';
 import image1 from './foto-simbiosis1.jpg';
+import image5 from './foto-simbiosis5.jpg';
+
 
 const mainFeaturedPost = {
   title: 'Colectivo Simbiosis',

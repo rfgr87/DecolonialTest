@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 
 
 
+
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
     position: 'relative',
@@ -32,43 +33,62 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     justifyContent: 'center',
     alignItems: 'center',
-    paddingLeft: '30%'
+    paddingLeft: '30%',
   },
 }));
 
-
-function Composer2(props) {
+function Composer1(props) {
 
   const classes = useStyles();
   const { post } = props;
 
     return (
-      <Paper className={classes.mainFeaturedPost} style={{ backgroundImage: `url(${image3})` }}>
-  
-  <div>
-        <h2>
-          Pedro Franco Fraticelli
-        </h2>
-        <Typography variant="h5" color="inherit" paragraph>
-              {"Yo soy Pedro Franco Fraticelli y soy un compositores bien chévere!"}<br></br>
-              {"Soy un negrito sabrosón y me gusta el reggaetón."}<br></br>
-              {"Me gusta la sandunga y la macumba y los lechones no"}<br></br>
-              {"los aso porque a veces son bien chéveres también." }
-            </Typography>   
-            <Link to='/compositores'>  Compositores  </Link>
-      </div>
-      </Paper>
+    <Paper className={classes.mainFeaturedPost} 
+    style={{ 
+      backgroundImage: `url(${image3})`,
+      height: 1000,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      width: `calc(100vw + 48px)`,
+      margin: -24,
+      padding: 24}}>
+    <div>
+     <h1 style={{
+      color:"black", 
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: "50px",
+      fontWeight: "100",
+      fontStyle: "normal",
+      paddingTop: "10px",
+      backgroundColor: "#6666FF",
+      width: "50%",
+      textWidth: "1px"
+       }}>Pedro Franco Fraticelli</h1>
 
+      <h5 style={{
+      color:"white", 
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: "30px",
+      fontWeight: "100",
+      fontStyle: "normal",
+      margin: 0,
+      paddingTop: "0px",
+      backgroundColor: "black",
+      width: "85%",
+      textWidth: "10px",
+      opacity: "0.7", 
+      justifyText: "left",
+      opacity: "0.7"
+       }}> {"Yo soy Pedro Franco Fraticelli. Compositor de música contemporánea Bricua"}<br></br>
+       {"oaisurhfvjasrvjaosinvrjoirsnvojraisnvjkonisojrvoiknsjoiknjo"}<br></br>
+       {"aokjviraivnjoinrsjjsnivjrasijvorjjdinjrodianjvajoinj"}<br></br>
+       {"ajsoinrvjajrtinarjdtijrinjrnadgavjvrainvdgaojronv" }<br></br>
+       {"okajisrjvjainbrsvinbjvbrjjgjrnasjrsnjjsoainjgdjvrnsgdjns"}</h5><br></br>
+      <Link to='/compositores'>  Compositores  </Link>
+   
+    </div>
+    </Paper>
     )
   }
-  
-export default Composer2
 
-/* <div>
-        <h2>
-          Composer2
-        </h2><br></br>
-        <h3>This is information about composer2</h3><br></br>
-        <h3>Th    is is the spot for images of scores of the composer</h3><br></br>
-        <h3>This is the spot for bandcamp links, audio, soundcloud links etc.</h3><br></br>
-      </div> */
+  export default Composer1

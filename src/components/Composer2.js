@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 
 
 
+
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
     position: 'relative',
@@ -32,10 +33,9 @@ const useStyles = makeStyles((theme) => ({
     position: 'absolute',
     justifyContent: 'center',
     alignItems: 'center',
-    paddingLeft: '30%'
+    paddingLeft: '30%',
   },
 }));
-
 
 function Composer2(props) {
 
@@ -46,23 +46,44 @@ function Composer2(props) {
     <Paper className={classes.mainFeaturedPost} 
     style={{ 
       backgroundImage: `url(${image4})`,
-      height: 1000,
+      height: 1500,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       width: `calc(100vw + 48px)`,
       margin: -24,
       padding: 24}}>
     <div>
-      <h2>
-        Elimar Alicia Chardón
-      </h2>
-      <Typography variant="h5" color="inherit" paragraph>
-          {"Yo soy Elimar Alicia Chardón y soy una compositora y improvisadora bien demasiao!"}<br></br>
-          {"Soy una gótica furiosa y machetera. Conmigo no se come cuento!"}<br></br>
-          {"Por poco me como vivo a esos gringos lindos del FBI"}<br></br>
-          {"Si no me hubieran sacao de ahi me hubiera quedao con ellos" }<br></br>
-          {"Pa espetarles la barita por el fondillo mientras me tiran ojitos"}
-      </Typography>   
+     <h1 style={{
+      color:"black", 
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: "50px",
+      fontWeight: "100",
+      fontStyle: "normal",
+      paddingTop: "10px",
+      backgroundColor: "#6666FF",
+      width: "50%",
+      textWidth: "1px"
+       }}>Elimar Alicia Chardón</h1>
+
+      <h5 style={{
+      color:"white", 
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: "30px",
+      fontWeight: "100",
+      fontStyle: "normal",
+      margin: 0,
+      paddingTop: "0px",
+      backgroundColor: "black",
+      width: "85%",
+      textWidth: "10px",
+      opacity: "0.7", 
+      justifyText: "left",
+      opacity: "0.7"
+       }}> {"Yo soy Elimar Alicia Chardón y soy una compositora y improvisadora!"}<br></br>
+       {"oaisurhfvjasrvjaosinvrjoirsnvojraisnvjkonisojrvoiknsjoiknjo"}<br></br>
+       {"aokjviraivnjoinrsjjsnivjrasijvorjjdinjrodianjvajoinj"}<br></br>
+       {"ajsoinrvjajrtinarjdtijrinjrnadgavjvrainvdgaojronv" }<br></br>
+       {"okajisrjvjainbrsvinbjvbrjjgjrnasjrsnjjsoainjgdjvrnsgdjns"}</h5><br></br>
       <Link to='/compositores'>  Compositores  </Link>
    
     </div>

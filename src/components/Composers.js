@@ -49,24 +49,36 @@ function Composers(props) {
  
   return (
 
-    <Paper className={classes.mainFeaturedPost} style={{ backgroundImage: `url(${image2})` }}>
-      {/* Increase the priority of the hero background image */}
-      {<img style={{ display: 'none' }} src={image2} alt={"Composers"} />}
-      <div className={classes.overlay}/>
-      <Grid container>
-        <Grid item md={6}>
-          <div className={classes.mainFeaturedPostContent}>
-            <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-              {"Compositores"}
-            </Typography>
-            <Typography variant="h5" color="inherit" paragraph>
-              {"Información de los compositores"}
-            </Typography>
+    <Paper className={classes.mainFeaturedPost}
+    style={{ 
+      backgroundImage: `url(${image2})`,
+      height: "1000px",
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      width: "100%",
+      margin: "0px",
+      padding: "30px"}}> 
+         <div>
+
+     <h1 style={{
+      color:"white", 
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: "50px",
+      fontWeight: "100",
+      fontStyle: "normal",
+      paddingTop: "10px",
+      backgroundColor: "#6666FF",
+      width: "85%",
+      textWidth: "1px",
+      opacity: "0.7", 
+      justifyText: "left",
+      opacity: "0.7"
+       }}>Compsitores</h1>
+            
             <Link to='/composer1'> Pedro Franco Fraticelli</Link><br></br>
             <Link to='/composer2'> Elimar Alicia Chardón</Link>
           </div>
-        </Grid>
-      </Grid>
+        
     </Paper>
 
   

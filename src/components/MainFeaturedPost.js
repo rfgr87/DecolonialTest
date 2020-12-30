@@ -33,40 +33,59 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     paddingLeft: '30%',
-    // [theme.breakpoints.up('md')]: {
-    //   padding: theme.spacing(10),
-    //   paddingRight: 0,
-    // },
   },
 }));
 
-export default function MainFeaturedPost(props) {
+function MainFeaturedPost(props) {
+
   const classes = useStyles();
   const { post } = props;
 
-  return (
-    <Paper className={classes.mainFeaturedPost} style={{ backgroundImage: `url(${post.image})` }}>
-      {/* Increase the priority of the hero background image */}
-      {<img style={{ display: 'none' }} src={post.image} alt={post.imageText} />}
-      <div className={classes.overlay} />
-      <Grid container>
-        <Grid item md={6}>
-          <div className={classes.mainFeaturedPostContent}>
-            <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-              {post.title}
-            </Typography>
-            <Typography variant="h5" color="inherit" paragraph>
-              {post.description}
-            </Typography>
-            <Link variant="subtitle1" href="#">
-              {post.linkText}
-            </Link>
-          </div>
-        </Grid>
-      </Grid>
+    return (
+    <Paper className={classes.mainFeaturedPost} 
+    style={{ 
+      backgroundImage: `url(${image1})`,
+      height: 1000,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      width: `calc(100vw + 48px)`,
+      margin: -24,
+      padding: 24}}>
+    <div>
+    <h1 style={{
+      color:"black", 
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: "50px",
+      fontWeight: "100",
+      fontStyle: "normal",
+      paddingTop: "10px",
+      backgroundColor: "#6666FF",
+      width: "50%",
+      textWidth: "1px"
+       }}>Quienes Somos</h1>
+       <h5 style={{
+      color:"white", 
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: "30px",
+      fontWeight: "100",
+      fontStyle: "normal",
+      paddingTop: "10px",
+      border: "blue",
+      borderWidth: "5px",
+      borderStyle: "outset",
+      positions: "relative",
+      backgroundColor: "#000000",
+      opacity: "0.5",
+      width: "75%"
+       }}> 
+       {"Somos un grupo de compositores comprometidos con la documentación y"}<br></br>
+       {"promoción de la música de compositores de Puerto Rico."}</h5>   
+    </div>
     </Paper>
-  );
-}
+    )
+  }
+
+export default MainFeaturedPost
 
 MainFeaturedPost.propTypes = {
   post: PropTypes.object,
