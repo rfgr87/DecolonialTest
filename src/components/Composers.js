@@ -61,7 +61,7 @@ function Composers(props) {
          <div>
 
      <h1 style={{
-      color:"white", 
+      color:"Black", 
       fontFamily: "'Raleway', sans-serif",
       fontSize: "50px",
       fontWeight: "100",
@@ -72,12 +72,59 @@ function Composers(props) {
       textWidth: "1px",
       opacity: "0.7", 
       justifyText: "left",
-      opacity: "0.7"
+      opacity: "1.0"
        }}>Compsitores</h1>
             
-            <Link to='/composer1'> Pedro Franco Fraticelli</Link><br></br>
-            <Link to='/composer2'> Elimar Alicia Chardón</Link>
+            <Link to='/composer1'
+            style={{
+              color:"white", 
+              fontFamily: "'Raleway', sans-serif",
+              fontSize: "20px",
+              fontWeight: "100",
+              fontStyle: "normal",
+              paddingTop: "0px",
+              border: "blue",
+              borderWidth: "1px",
+              borderStyle: "outset",
+              positions: "relative",
+              backgroundColor: "#000000",
+              opacity: "0.7",
+              width: "75%",
+              marginTop: "10"}} activeStyle={{color: 'red'}}> * Pedro Franco Fraticelli</Link><br></br><br></br>
+            <Link to='/composer2'
+            style={{
+              color:"white", 
+              fontFamily: "'Raleway', sans-serif",
+              fontSize: "20px",
+              fontWeight: "100",
+              fontStyle: "normal",
+              paddingTop: "0px",
+              border: "blue",
+              borderWidth: "1px",
+              borderStyle: "outset",
+              positions: "relative",
+              backgroundColor: "#000000",
+              opacity: "0.7",
+              width: "75%", 
+              marginTop: "10"}} activeStyle={{color: 'red'}}> * Elimar Alicia Chardón</Link><br></br><br></br>
+              <Link to='/composer3'
+              style={{
+              color:"white", 
+              fontFamily: "'Raleway', sans-serif",
+              fontSize: "20px",
+              fontWeight: "100",
+              fontStyle: "normal",
+              paddingTop: "0px",
+              border: "blue",
+              borderWidth: "1px",
+              borderStyle: "outset",
+              positions: "relative",
+              backgroundColor: "#000000",
+              opacity: "0.7",
+              width: "75%", 
+              marginTop: "10"}} activeStyle={{color: 'red'}}> * Julio Quiñones</Link>
           </div>
+
         
     </Paper>
 

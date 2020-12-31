@@ -4,6 +4,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import image4 from './foto-simbiosis4.jpg';
 import Typography from '@material-ui/core/Typography';
+import YouTube from 'react-youtube';
+
 
 
 
@@ -41,6 +43,15 @@ function Composer2(props) {
 
   const classes = useStyles();
   const { post } = props;
+  const opts = {
+    height: '390',
+    width: '640',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1,
+    },
+  };
+  
 
     return (
     <Paper className={classes.mainFeaturedPost} 
@@ -71,10 +82,11 @@ function Composer2(props) {
       fontSize: "30px",
       fontWeight: "100",
       fontStyle: "normal",
-      margin: 0,
+      marginLeft: "35%",
+      marginTop: "35%",
       paddingTop: "0px",
       backgroundColor: "black",
-      width: "85%",
+      width: "65%",
       textWidth: "10px",
       opacity: "0.7", 
       justifyText: "left",
@@ -84,11 +96,32 @@ function Composer2(props) {
        {"aokjviraivnjoinrsjjsnivjrasijvorjjdinjrodianjvajoinj"}<br></br>
        {"ajsoinrvjajrtinarjdtijrinjrnadgavjvrainvdgaojronv" }<br></br>
        {"okajisrjvjainbrsvinbjvbrjjgjrnasjrsnjjsoainjgdjvrnsgdjns"}</h5><br></br>
+       <YouTube style={{
+      color:"white", 
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: "30px",
+      fontWeight: "100",
+      fontStyle: "normal",
+      marginLeft: "35%",
+      marginTop: "35%",
+      paddingTop: "0px",
+      backgroundColor: "black",
+      width: "65%",
+      textWidth: "10px",
+      opacity: "0.7", 
+      justifyText: "left",
+      opacity: "0.7"
+       }} videoId="OiB9FQhxUqQ" opts={opts} />;
       <Link to='/compositores'>  Compositores  </Link>
    
     </div>
     </Paper>
     )
   }
+
+  //onReady={this._onReady} 
+  // _onReady(event) {
+  //   // access to player in all event handlers via event.target
+  //   event.target.pauseVideo();
   
 export default Composer2

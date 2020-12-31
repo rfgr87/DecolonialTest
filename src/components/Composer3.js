@@ -2,10 +2,9 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import image3 from './foto-simbiosis3.jpg';
-import Typography from '@material-ui/core/Typography';
-import ReactPlayer from "react-player"
+import image6 from './foto-simbiosis6.jpg';
 
+import Typography from '@material-ui/core/Typography';
 
 
 
@@ -16,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.grey[100],
     color: theme.palette.common.white,
     marginBottom: theme.spacing(10),
-    backgroundImage: image3,
+    backgroundImage: image6,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -39,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function Composer1(props) {
+function Composer3(props) {
 
   const classes = useStyles();
   const { post } = props;
@@ -47,8 +46,8 @@ function Composer1(props) {
     return (
     <Paper className={classes.mainFeaturedPost} 
     style={{ 
-      backgroundImage: `url(${image3})`,
-      height: 1000,
+      backgroundImage: `url(${image6})`,
+      height: 800,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       width: `calc(100vw + 48px)`,
@@ -65,7 +64,7 @@ function Composer1(props) {
       backgroundColor: "#6666FF",
       width: "50%",
       textWidth: "1px"
-       }}>Pedro Franco Fraticelli</h1>
+       }}>Julio E. Quiñones</h1>
 
       <h5 style={{
       color:"white", 
@@ -73,42 +72,21 @@ function Composer1(props) {
       fontSize: "30px",
       fontWeight: "100",
       fontStyle: "normal",
-      marginLeft: "15px",
-      marginTop: "0%",
+      marginLeft: "35%",
+      marginTop: "35%",
       paddingTop: "0px",
       backgroundColor: "black",
-      width: "25%",
+      width: "65%",
       textWidth: "10px",
       opacity: "0.7", 
       justifyText: "left",
       opacity: "0.7"
-       }}> "Yo soy Pedro Franco Fraticelli. Compositor de música contemporánea Bricua.
-       oaisurhfvja srvjaosin vrjoirsnvoj raisnvjkonisoj rvoiknsjoiknjo
-       "aokjviraiv  njoinrsj jsnivjrasijv orjjdinjrodianjva joinj
-       ajsoinrv ja jrtina rjdtijri njrnadgav jvrainv dgaojro nv
-       okajisr jvjai nbrsv inbjvbrjjgjr nasjrsnjj soain jgdjvrn sgdjns"</h5>
-       <br></br>
-       <div
-         style={{
-      color:"white", 
-      fontFamily: "'Raleway', sans-serif",
-      fontSize: "30px",
-      fontWeight: "100",
-      fontStyle: "normal",
-      marginLeft: "45%",
-      marginTop: "25%",
-      paddingTop: "0px",
-      backgroundColor: "black",
-      width: "0%",
-      textWidth: "10px",
-      justifyText: "left",
-      opacity: "1.0"
-       }}>
-      <ReactPlayer
-        url="https://soundcloud.com/pedrofraticellimusic"
-      />
-      </div>
-       <Link to='/compositores' style={{
+       }}> {"Yo soy Julio Quiñones y soy una compositor!"}<br></br>
+       {"oaisurhfvjasrvjaosinvrjoirsnvojraisnvjkonisojrvoiknsjoiknjo"}<br></br>
+       {"aokjviraivnjoinrsjjsnivjrasijvorjjdinjrodianjvajoinj"}<br></br>
+       {"ajsoinrvjajrtinarjdtijrinjrnadgavjvrainvdgaojronv" }<br></br>
+       {"okajisrjvjainbrsvinbjvbrjjgjrnasjrsnjjsoainjgdjvrnsgdjns"}</h5>
+      <Link to='/compositores' style={{
               fontFamily: "'Raleway', sans-serif",
               fontSize: "20px",
               fontWeight: "100",
@@ -119,10 +97,11 @@ function Composer1(props) {
             //   backgroundColor: "#000000",
               opacity: "1.0",
               width: "75%", 
-              marginBottom: "100px"}} activeStyle={{color: 'red'}}>  Compositores  </Link>   
+              marginBottom: "100px"}} activeStyle={{color: 'red'}}>  Compositores  </Link>
+   
     </div>
     </Paper>
     )
   }
-
-  export default Composer1
+  
+export default Composer3

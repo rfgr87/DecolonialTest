@@ -12,6 +12,7 @@ import "./App.css";
 import Composers from './components/Composers';
 import Composer1 from './components/Composer1';
 import Composer2 from './components/Composer2';
+import Composer3 from './components/Composer3';
 import QuienesSomos from './components/QuienesSomos';
 import Blog2 from './components/Blog2';
 import ForumContainer from "./containers/ForumContainer";
@@ -54,6 +55,8 @@ class App extends Component {
           <Route path='/forum' component= {ForumContainer}/>
           <Route path='/composer1' component = {Composer1}/>
           <Route path='/composer2' component = {Composer2}/>
+          <Route path='/composer3' component = {Composer3}/>
+
         </Switch> 
           </div>
         </Router>
