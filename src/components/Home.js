@@ -14,7 +14,7 @@ import Footer from './Footer';
 import post1 from './blog-post.1.md';
 import post2 from './blog-post.2.md';
 import post3 from './blog-post.3.md';
-import image1 from './foto-simbiosis1.jpg';
+import image1 from './foto-decolonial1.jpg';
 import image5 from './foto-simbiosis5.jpg';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
@@ -66,7 +66,7 @@ const useStyles = makeStyles((theme) => ({
 
 
 const mainFeaturedPost2 = {
-  image: image5,
+  image: image1,
 };
 
 const featuredPosts = [
@@ -118,14 +118,38 @@ export default function Home() {
   const classes = useStyles();
 
   return (
-   
-    <React.Fragment>
+   <div
+    style={{ 
+      backgroundImage: `url(${image1})`,
+      height: "100%",
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      width: `100%`,
+      margin: 0,
+      padding: 0, 
+     }}>
+    <React.Fragment>     
       <CssBaseline />
-      <Container maxWidth="lg">  
+      <Container >
+      
+    
       <Header title="Colectivo Simbiosis" />        
-        <Logo post={mainFeaturedPost2} />  
         <main>
-        <Grid container spacing={5}>
+        <Grid style={{
+      color:"white", 
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: "30px",
+      fontWeight: "100",
+      fontStyle: "normal",
+      marginLeft: "35%",
+      marginTop: "35%",
+      paddingTop: "0px",
+      backgroundColor: "black",
+      width: "65%",
+      textWidth: "10px",
+      opacity: "1.0", 
+      justifyText: "left",
+       }} container spacing={5}>
             {featuredPosts.map((post) => (
               <FeaturedPost key={post.title} post={post} />
             ))}
@@ -142,5 +166,6 @@ export default function Home() {
       </Container>
       <Footer title="Footer" description="Something here to give the footer a purpose!" />
     </React.Fragment>
+    </div>
   );
 }

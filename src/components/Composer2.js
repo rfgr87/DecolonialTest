@@ -7,9 +7,6 @@ import Typography from '@material-ui/core/Typography';
 import YouTube from 'react-youtube';
 
 
-
-
-
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
     position: 'relative',

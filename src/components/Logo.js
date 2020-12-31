@@ -5,7 +5,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
-import image5 from './foto-simbiosis5.jpg';
+import image1 from './foto-decolonial1.jpg';
 
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.grey[100],
     color: theme.palette.common.white,
     marginBottom: theme.spacing(10),
-    backgroundImage: image5,
+    backgroundImage: image1,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -44,7 +44,7 @@ function Logo(props) {
   
       <Paper className={classes.mainFeaturedPost2} 
       style={{ 
-        backgroundImage: `url(${image5})`,
+        backgroundImage: `url(${image1})`,
         height: 2000,
         backgroundSize: 'center',
         backgroundPosition: 'center',

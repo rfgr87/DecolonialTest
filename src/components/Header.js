@@ -19,12 +19,12 @@ import { CenterFocusStrong } from '@material-ui/icons';
 import { Switch} from 'react-router-dom';
 import HeaderToolbar from '../components/HeaderToolbar';
 import MainFeaturedPost from './MainFeaturedPost';
-import image1 from './foto-simbiosis1.jpg';
+import image1 from './foto-decolonial1.jpg';
 import image5 from './foto-simbiosis5.jpg';
 
 
 const mainFeaturedPost = {
-  title: 'Colectivo Simbiosis',
+  title: 'Decolonial Records',
   image: image1,
   imgText: 'main image description',
 };
@@ -38,16 +38,16 @@ const useStyles = makeStyles((theme) => ({
     flex: 1,
   },
   toolbarSecondary: {
-    justifyContent: 'space-between',
+    justifyContent: 'start',
     overflowX: 'auto',
 
   },
   toolbarLink: {
-    padding: theme.spacing(1),
+    padding: 0,
     flexShrink: 0,
   },
   div: {
-    justifyContent: 'center'
+    justifyContent: 'rigth'
   }
 }));
 
@@ -60,14 +60,15 @@ export default function Header(props) {
     <React.Fragment>
       <Toolbar className={classes.toolbar}>
         <Button size="small">Subscribe</Button>
-        <Typography
+        <Typography style={{
+      color:"black", fontSize: "100px" }}
           component="h2"
           variant="h5"
-          color="inherit"
+          color="white"
           align="center"
           noWrap
           className={classes.toolbarTitle}>
-          {title}
+          {"Decolonial Records"}
         </Typography>
         <IconButton>
           <SearchIcon />

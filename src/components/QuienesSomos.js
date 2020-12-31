@@ -1,6 +1,7 @@
 import React from 'react'
 import MainFeaturedPost from './MainFeaturedPost';
-import image1 from './foto-simbiosis1.jpg';
+import image1 from './foto-decolonial1.jpg';
+
 
 
 const mainFeaturedPost = {

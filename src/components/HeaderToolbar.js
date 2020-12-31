@@ -12,7 +12,7 @@ import { Switch} from 'react-router-dom';
 import ForumContainer from "../containers/ForumContainer";
 import Home from "../components/Home";
 import MainFeaturedPost from './MainFeaturedPost';
-import image1 from './foto-simbiosis1.jpg';
+import image1 from './foto-decolonial1.jpg';
 
 const useStyles = makeStyles((theme) => ({
     toolbar: {
@@ -23,20 +23,20 @@ const useStyles = makeStyles((theme) => ({
     },
     toolbarSecondary: {
       justifyContent: 'space-between',
-      overflowX: 'auto',
-  
+      overflowX: 'auto',  
     },
     toolbarLink: {
       padding: theme.spacing(1),
       flexShrink: 0,
     },
     div: {
-      justifyContent: 'center'
+      justifyContent: 'rigth',
     }
   }));
 
   const mainFeaturedPost = {
-    title: 'Colectivo Simbiosis',
+    title: 'Decolonial Records',
+    color: 'inherit',
     image: image1,
     imgText: 'main image description',
   };
@@ -52,7 +52,19 @@ const useStyles = makeStyles((theme) => ({
     return (
       <div>
        
-          <Toolbar component="nav" variant="dense" className={classes.toolbarSecondary}>
+      <Toolbar style={{
+      fontSize: "30px",
+      fontWeight: "100",
+      fontStyle: "normal",
+      marginLeft: "35%",
+      marginTop: "35%",
+      paddingTop: "0px",
+      backgroundColor: "black",
+      width: "65%",
+      textWidth: "10px",
+      opacity: "1.0", 
+      justifyText: "left",
+       }} component="nav" variant="dense" className={classes.toolbarSecondary}>
           <Link to='/quienessomos'>  Quienes Somos  </Link>
           <Link to='/compositores'>  Compositores  </Link>
           <Link to='/blog'>  Blog  </Link>
