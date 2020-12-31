@@ -9,7 +9,7 @@ import Link from '@material-ui/core/Link';
 import Composers from '../components/Composers';
 import Composer1 from '../components/Composer1';
 import Composer2 from '../components/Composer2';
-import QuienesSomos from '../components/QuienesSomos';
+import Manifesto from './Manifesto';
 import { HashRouter as Router, Route} from 'react-router-dom';
 import Blog2 from '../components/Blog2'
 import ForumContainer from '../containers/ForumContainer'
@@ -59,9 +59,9 @@ export default function Header(props) {
   
     <React.Fragment>
       <Toolbar className={classes.toolbar}>
-        <Button size="small">Subscribe</Button>
+        <Button style={{ color: "black", background: "white", fontSize: "25px", opacity: "1.0" }}>Subscribe</Button>
         <Typography style={{
-      color:"black", fontSize: "100px" }}
+      color:"black", fontSize: "80px" }}
           component="h2"
           variant="h5"
           color="white"
@@ -71,9 +71,9 @@ export default function Header(props) {
           {"Decolonial Records"}
         </Typography>
         <IconButton>
-          <SearchIcon />
+          <SearchIcon style={{ color: "black", background: "white", fontSize: "55px", opacity: "1.0" }} />
         </IconButton>
-        <Button variant="outlined" size="small">
+        <Button style={{ color: "black", background: "white", fontSize: "25px", opacity: "1.0" }} >
           Sign up
         </Button>
       </Toolbar>

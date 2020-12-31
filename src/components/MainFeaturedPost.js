@@ -5,7 +5,7 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
-import image1 from './foto-decolonial1.jpg';
+import image2 from './foto-decolonial22.png';
 
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.grey[100],
     color: theme.palette.common.white,
     marginBottom: theme.spacing(10),
-    backgroundImage: image1,
+    backgroundImage: image2,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -44,7 +44,7 @@ function MainFeaturedPost(props) {
     return (
     <Paper className={classes.mainFeaturedPost} 
     style={{ 
-      backgroundImage: `url(${image1})`,
+      backgroundImage: `url(${image2})`,
       height: 1000,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
@@ -62,24 +62,35 @@ function MainFeaturedPost(props) {
       backgroundColor: "#6666FF",
       width: "50%",
       textWidth: "1px"
-       }}>Quienes Somos</h1>
+       }}>Manifesto</h1>
        <h5 style={{
       color:"white", 
       fontFamily: "'Raleway', sans-serif",
-      fontSize: "30px",
+      fontSize: "50px",
       fontWeight: "100",
       fontStyle: "normal",
       paddingTop: "10px",
-      border: "blue",
-      borderWidth: "5px",
-      borderStyle: "outset",
       positions: "relative",
       backgroundColor: "#000000",
-      opacity: "0.5",
+      opacity: "1.0",
+      marginLeft: "15%",
+      width: "67%"
+       }}> 
+       {"[Decolonialidad, Apropiación, Futurismo]"}<br></br></h5>
+       <h5 style={{
+      color:"white", 
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: "25px",
+      fontWeight: "100",
+      fontStyle: "normal",
+      paddingTop: "10px",
+      positions: "relative",
+      backgroundColor: "#000000",
+      opacity: "1.0",
+      marginLeft: "15%",
       width: "75%"
        }}> 
-       {"Somos un grupo de compositores comprometidos con la documentación y"}<br></br>
-       {"promoción de la música de compositores de Puerto Rico."}</h5>   
+       Decolonial Records está dedicado a la música contemporánea y experimental Latino Americana con la misión de formar mediante actos decoloniales no solo una identidad futurística Latino Americana pero una reinvindicación de la ancestral mediante propuestas estéticas y conceptuales.</h5>
     </div>
     </Paper>
     )

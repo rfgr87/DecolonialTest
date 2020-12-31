@@ -1,17 +1,16 @@
 import React from 'react'
 import MainFeaturedPost from './MainFeaturedPost';
-import image1 from './foto-decolonial1.jpg';
-
+import image1 from './foto-decolonial22.png';
 
 
 const mainFeaturedPost = {
-  title: 'Quienes Somos',
+  title: 'Manifesto',
   image: image1,
   imgText: 'main image description',
 };
 
 
-const QuienesSomos = () => {
+const Manifesto = () => {
 
       return (    
         <div>
@@ -20,4 +19,4 @@ const QuienesSomos = () => {
       )
   }
 
-export default QuienesSomos
+export default Manifesto

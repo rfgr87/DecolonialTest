@@ -5,7 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Composers from '../components/Composers';
 import Composer1 from '../components/Composer1';
 import Composer2 from '../components/Composer2';
-import QuienesSomos from '../components/QuienesSomos';
+import QuienesSomos from './Manifesto';
 import Blog2 from '../components/Blog2';
 import { HashRouter as Router, Route} from 'react-router-dom';
 import { Switch} from 'react-router-dom';
@@ -40,9 +40,6 @@ const useStyles = makeStyles((theme) => ({
     image: image1,
     imgText: 'main image description',
   };
-  
-
-
 
   const HeaderToolbar = () => {
 
@@ -51,27 +48,12 @@ const useStyles = makeStyles((theme) => ({
 
     return (
       <div>
-       
-      <Toolbar style={{
-      fontSize: "30px",
-      fontWeight: "100",
-      fontStyle: "normal",
-      marginLeft: "35%",
-      marginTop: "35%",
-      paddingTop: "0px",
-      backgroundColor: "black",
-      width: "65%",
-      textWidth: "10px",
-      opacity: "1.0", 
-      justifyText: "left",
-       }} component="nav" variant="dense" className={classes.toolbarSecondary}>
-          <Link to='/quienessomos'>  Quienes Somos  </Link>
-          <Link to='/compositores'>  Compositores  </Link>
-          <Link to='/blog'>  Blog  </Link>
-          <Link to='/forum'>  Forum  </Link>
-        </Toolbar>
-       
-        </div>
+      
+          <Link style={{color: "white", fontWeight: "100", background: "black", fontSize: "40px"}} to='/manifesto'>  Manifesto  </Link><br></br>
+          <Link style={{color: "white", fontWeight: "100",  background: "black", fontSize: "40px"}} to='/compositores'>  Compositores  </Link><br></br>
+          <Link style={{color: "white", fontWeight: "100",  background: "black", fontSize: "40px"}} to='/blog'>  Blog  </Link><br></br>
+          <Link style={{color: "white", fontWeight: "100",  background: "black", fontSize: "40px"}} to='/forum'>  Forum  </Link>
+      </div>
   )
 }
 
