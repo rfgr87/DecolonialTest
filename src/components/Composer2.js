@@ -67,7 +67,7 @@ function Composer2(props) {
       fontSize: "50px",
       fontWeight: "100",
       fontStyle: "normal",
-      paddingTop: "10px",
+      paddingTop: "0px",
       backgroundColor: "#6666FF",
       width: "50%",
       textWidth: "1px"

@@ -125,25 +125,43 @@ export default function Home() {
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       width: `100%`,
-      margin: -24,
-      padding: 24
+      margin: 0,
+      padding: 0, 
      }}>
     <React.Fragment>     
       <CssBaseline />
       <Container >
       
     
-      <Header />        
+      <Header title="Colectivo Simbiosis" />        
         <main>
-        
+        <Grid style={{
+      color:"white", 
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: "20px",
+      fontWeight: "100",
+      fontStyle: "normal",
+      marginLeft: "25%",
+      marginTop: "0%",
+      paddingTop: "0px",
+      backgroundColor: "black",
+      width: "85%",
+      textWidth: "1px",
+      opacity: "1.0", 
+      justifyText: "left",
+       }} container spacing={5}>
+            {featuredPosts.map((post) => (
+              <FeaturedPost key={post.title} post={post} />
+            ))}
+          </Grid><br></br><br></br>
           <Grid style={{
       color:"white", 
       fontFamily: "'Raleway', sans-serif",
       fontSize: "30px",
       fontWeight: "100",
       fontStyle: "normal",
-      marginLeft: "50%",
-      marginTop: "0px",
+      marginLeft: "0%",
+      marginTop: "0%",
       paddingTop: "0px",
       backgroundColor: "black",
       width: "50%",
@@ -160,7 +178,16 @@ export default function Home() {
           </Grid>
         </main>
       </Container>
+      <Footer title="Footer" description="Something here to give the footer a purpose!" />
     </React.Fragment>
     </div>
   );
 }
+
+
+<Paper elevation={0} className={classes.sidebarAboutBox}>
+        <Typography variant="h6" gutterBottom>
+          {title}
+        </Typography>
+        <Typography>{description}</Typography>
+      </Paper>

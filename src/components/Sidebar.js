@@ -22,25 +22,18 @@ export default function Sidebar(props) {
 
   return (
     <Grid item xs={12} md={4}>
-      <Paper elevation={0} className={classes.sidebarAboutBox}>
-        <Typography variant="h6" gutterBottom>
-          {title}
-        </Typography>
-        <Typography>{description}</Typography>
-      </Paper>
-      <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
-        Archives
-      </Typography>
+     
+      <h2 style={{ fontSize: "25px"}}>  Archives</h2>
+      
       {archives.map((archive) => (
-        <Link display="block" variant="body1" href={archive.url} key={archive.title}>
+        <Link style={{color: "#00FFFF", fontSize: "18px"}} display="block" variant="body1" href={archive.url} key={archive.title}>
           {archive.title}
         </Link>
       ))}
-      <Typography variant="h6" gutterBottom className={classes.sidebarSection}>
-        Social
-      </Typography>
+      <h2 style={{ fontSize: "25px"}}>  Social</h2>
+
       {social.map((network) => (
-        <Link display="block" variant="body1" href="#" key={network}>
+        <Link style={{color: "#00FFFF", fontSize: "18px"}} display="block" variant="body1" href="#" key={network}>
           <Grid container direction="row" spacing={1} alignItems="center">
             <Grid item>
               <network.icon />

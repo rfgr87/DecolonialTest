@@ -58,13 +58,12 @@ export default function Header(props) {
   return (
   
     <React.Fragment>
-      <Toolbar className={classes.toolbar}>
-        <Button style={{ color: "black", background: "white", fontSize: "25px", opacity: "1.0" }}>Subscribe</Button>
+      <Toolbar className={classes.toolbar} >
+        <Button style={{ color: "black", background: "white", fontSize: "25px", opacity: "1.0", marginTop: "0px" }}>Subscribe</Button>
         <Typography style={{
-      color:"black", fontSize: "80px" }}
+      color:"black", fontSize: "80px", marginTop: "200px" , background: "black", color: "white"}}
           component="h2"
           variant="h5"
-          color="white"
           align="center"
           noWrap
           className={classes.toolbarTitle}>
@@ -77,7 +76,8 @@ export default function Header(props) {
           Sign up
         </Button>
       </Toolbar>
-      <HeaderToolbar></HeaderToolbar>  
+      <HeaderToolbar>
+      </HeaderToolbar>  
     </React.Fragment>
   );
 }

@@ -14,41 +14,13 @@ import Home from "../components/Home";
 import MainFeaturedPost from './MainFeaturedPost';
 import image1 from './foto-decolonial1.jpg';
 
-const useStyles = makeStyles((theme) => ({
-    toolbar: {
-      borderBottom: `1px solid ${theme.palette.divider}`,
-    },
-    toolbarTitle: {
-      flex: 1,
-    },
-    toolbarSecondary: {
-      justifyContent: 'space-between',
-      overflowX: 'auto',  
-    },
-    toolbarLink: {
-      padding: theme.spacing(1),
-      flexShrink: 0,
-    },
-    div: {
-      justifyContent: 'rigth',
-    }
-  }));
-
-  const mainFeaturedPost = {
-    title: 'Decolonial Records',
-    color: 'inherit',
-    image: image1,
-    imgText: 'main image description',
-  };
-
   const HeaderToolbar = () => {
 
-    const classes = useStyles();
 
 
     return (
-      <div>
-      
+      <div
+        style={{marginTop: "0px"}}>
           <Link style={{color: "white", fontWeight: "100", background: "black", fontSize: "40px"}} to='/manifesto'>  Manifesto  </Link><br></br>
           <Link style={{color: "white", fontWeight: "100",  background: "black", fontSize: "40px"}} to='/compositores'>  Compositores  </Link><br></br>
           <Link style={{color: "white", fontWeight: "100",  background: "black", fontSize: "40px"}} to='/blog'>  Blog  </Link><br></br>
