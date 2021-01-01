@@ -14,6 +14,7 @@ import Composer1 from './components/Composer1';
 import Composer2 from './components/Composer2';
 import Composer3 from './components/Composer3';
 import Manifesto from './components/Manifesto';
+import Micelaneos from './components/Micelaneos';
 import Blog2 from './components/Blog2';
 import ForumContainer from "./containers/ForumContainer";
 
@@ -34,7 +35,9 @@ class App extends Component {
         fontFamily: "'Raleway', sans-serif",
         fontWeight: "100",
         fontStyle: "normal",
-        paddingTop: "8px",
+        paddingTop: "10px",
+        paddingBottom: "10px",
+
         positions: "relative",
         backgroundColor: "#000000",
         opacity: "1.0",
@@ -69,6 +72,7 @@ class App extends Component {
           <Route path='/compositores' component={Composers}/>
           <Route path='/blog' component={Blog2}/>
           <Route path='/forum' component= {ForumContainer}/>
+          <Route path='/micelaneos' component = {Micelaneos}/>
           <Route path='/composer1' component = {Composer1}/>
           <Route path='/composer2' component = {Composer2}/>
           <Route path='/composer3' component = {Composer3}/>
