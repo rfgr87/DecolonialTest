@@ -56,12 +56,20 @@ function Micelaneos(props) {
       <div style={{ 
         position: "absolute",
        backgroundColor: `cyan`,
-       height: "4000px",
+      //  height: "4000px",
        backgroundSize: "100%",
        backgroundPosition: 'center',
        width: `100%`,
        paddingTop: "0px",
-       margin: 0}}>
+       margin: 0, 
+       paddingLeft: 0,
+       marginLeft: 0,
+       height: "1500px",
+       backgroundSize: 'cover',
+       backgroundPosition: 'center',
+       width: "100%",
+       margin: -24,
+       padding: 24}}>
    <div style={{ 
      position: "relative",
     backgroundImage: `url(${image4})`,

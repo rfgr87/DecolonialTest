@@ -2,22 +2,25 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import image4 from './foto-simbiosis4.jpg';
+import image1 from './foto-renzo1.jpg';
+import image2 from './foto-renzo2.jpg';
+import image3 from './foto-renzo3.jpg';
+import image4 from './foto-renzo4.jpg';
 import Typography from '@material-ui/core/Typography';
-import YouTube from 'react-youtube';
-
+import ReactPlayer from "react-player";
+import Vimeo from '@u-wave/react-vimeo';
 
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
-    position: 'relative',
+    position: 'absolute',
     backgroundColor: theme.palette.grey[100],
     color: theme.palette.common.white,
     marginBottom: theme.spacing(10),
-    backgroundImage: image4,
+    backgroundImage: image1,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    height: 700
+    height: 1000
 
   },
   overlay: {
@@ -36,30 +39,26 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function Composer2(props) {
+function Composer1(props) {
 
   const classes = useStyles();
   const { post } = props;
-  const opts = {
-    height: '390',
-    width: '640',
-    playerVars: {
-      // https://developers.google.com/youtube/player_parameters
-      autoplay: 1,
-    },
-  };
-  
 
     return (
-    <Paper className={classes.mainFeaturedPost} 
-    style={{ 
-      backgroundImage: `url(${image4})`,
-      height: 1500,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      width: `calc(100vw + 48px)`,
-      margin: -24,
-      padding: 24}}>
+      <div style={{ 
+      backgroundImage: `url(${image1})`,
+      height: "4500",
+      position: "absolute",
+      backgroundPosition: '0px 0px',
+      backgroundSize: "100% 100%",  
+      backgroundRepeat: "no-repeat",
+      paddingBottom: "80%",  
+      marginBottom: "100px",  
+      paddingTop: 24,
+      marginTop: -24,
+      marginLeft: 0,
+      paddingLeft: "10px",
+      }}>
     <div>
      <h1 style={{
       color:"black", 
@@ -67,58 +66,144 @@ function Composer2(props) {
       fontSize: "50px",
       fontWeight: "100",
       fontStyle: "normal",
-      paddingTop: "0px",
+      paddingTop: "10px",
+      marginLeft: "10px",
       backgroundColor: "#6666FF",
       width: "50%",
       textWidth: "1px"
-       }}>Elimar Alicia Chardón</h1>
-
+       }}>Renzo Felinich</h1>
+      </div>
+     
       <h5 style={{
+      marginLeft: "250px",
+      positions: "absolute",
+      opacity: "1.0",
+      marginLeft: "10px",
+      marginBottom: "-50px",
+      height: "440px",
+      widht: "380px",
+      backgroundImage: `url(${image3})`,
+      backgroundSize: "440px 380px",
+      backgroundRepeat: "no-repeat",
+       }}></h5>
+
+      <div style={{
+      position: "absolute",
       color:"white", 
       fontFamily: "'Raleway', sans-serif",
       fontSize: "30px",
       fontWeight: "100",
       fontStyle: "normal",
-      marginLeft: "35%",
-      marginTop: "35%",
+      marginLeft: "1000px",
+      marginTop: "-390px",
       paddingTop: "0px",
       backgroundColor: "black",
-      width: "65%",
+      width: "100px",
       textWidth: "10px",
-      opacity: "0.7", 
       justifyText: "left",
-      opacity: "0.7"
-       }}> {"Yo soy Elimar Alicia Chardón y soy una compositora y improvisadora!"}<br></br>
-       {"oaisurhfvjasrvjaosinvrjoirsnvojraisnvjkonisojrvoiknsjoiknjo"}<br></br>
-       {"aokjviraivnjoinrsjjsnivjrasijvorjjdinjrodianjvajoinj"}<br></br>
-       {"ajsoinrvjajrtinarjdtijrinjrnadgavjvrainvdgaojronv" }<br></br>
-       {"okajisrjvjainbrsvinbjvbrjjgjrnasjrsnjjsoainjgdjvrnsgdjns"}</h5><br></br>
-       <YouTube style={{
-      color:"white", 
-      fontFamily: "'Raleway', sans-serif",
-      fontSize: "30px",
+      opacity: "1.0"
+       }}>
+      <Vimeo video="228832049"/>
+      </div>
+      <div>
+    <iframe style={{
+      position: "absolute",
+      border: 0, 
+      width: "350px", 
+      height: "470px", 
+      marginTop: "60px",
+      marginLeft: "1050px"}} 
+      src="https://bandcamp.com/EmbeddedPlayer/album=3782459298/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/album/7-ensayos-sobre-la-cosmovisi-n-andina">7 Ensayos sobre la Cosmovisión Andina by Renzo Filinich</a></iframe></div>
+    <div>
+    <iframe style={{
+      position: "absolute",
+      border: 0, 
+      width: "350px", 
+      height: "470px", 
+      marginTop: "60px",
+      marginLeft: "1400px"}} 
+      src="https://bandcamp.com/EmbeddedPlayer/track=4156088800/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/esto-no-es-s-ntesis-es-s-ncresis">Esto no es Síntesis, es Síncresis! by Renzo Filinich</a></iframe></div>
+    <div>
+    <iframe style={{
+      position: "absolute",
+      border: 0, 
+      width: "350px", 
+      height: "490px", 
+      marginTop: "530px",
+      marginLeft: "1400px"}} 
+      src="https://bandcamp.com/EmbeddedPlayer/album=2117347669/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/album/ondas-migratorias">Ondas Migratorias by Renzo Filinich</a></iframe></div>
+    <div>
+    <iframe style={{
+      position: "absolute",
+      border: 0, 
+      width: "350px", 
+      height: "470px", 
+      marginTop: "530px",
+      marginLeft: "1050px"}} 
+      src="https://bandcamp.com/EmbeddedPlayer/track=473125030/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/electroacoustic-improvisation-cook-the-sounds-a-la-anthony-bourdain">Electroacoustic Improvisation - Cook the sounds a la Anthony Bourdain by Renzo Filinich</a></iframe>      </div>
+    <div>
+      <h5 style={{
+      position: "relative",
+      color:"black", 
+      fontFamily: "Menlo",
+      fontSize: "25px",
       fontWeight: "100",
       fontStyle: "normal",
-      marginLeft: "35%",
-      marginTop: "35%",
-      paddingTop: "0px",
-      backgroundColor: "black",
-      width: "65%",
+      marginLeft: "10px",
+      marginTop: "0",
+      border: "blue",
+      borderWidth: "1px",
+      borderStyle: "outset",
+      padding: "25px",
+      backgroundColor: "white",
+      width: "40%",
       textWidth: "10px",
       opacity: "0.7", 
       justifyText: "left",
-      opacity: "0.7"
-       }} videoId="OiB9FQhxUqQ" opts={opts} />;
-      <Link to='/compositores'>  Compositores  </Link>
-   
-    </div>
-    </Paper>
+      opacity: "1.0"
+       }}> {"[Renzo Filinich Orozco (Lima 1978) Magister en Artes Mediales / Doctorando en Estudios Interdisciplinarios / Master in Media Arts / PhD in Interdisciplinary Studies"}<br></br><br></br>
+
+        {"Mi interes surge en la investigacion y produccion con nuevas tecnologías en el arte, con el objetivo de desarrollar nuevos campos interactivos y cognitivos del espectador, así como la representación espacial del sonido y la imagen por medio del uso de interfaces gestuales de control y performance."}<br></br><br></br>
+        {"En mi trabajo abordo distintos aspectos del lenguaje en el arte contemporaneo, como la instalacion, la performance y la improvisacion. Fui miembro y coordinador de la Comunidad Electroacustica de Chile CECh 2010 - 2018."}<br></br><br></br>
+        {"A su ves, he mostrado mis obras e investigaciones en diversos Festivales y coloquios en: Austria, Portugal, Colombia, Argentina, Mexico, España, Inglaterra, Francia, Peru y Chile. Actualmente trabajo como docente e investigador de nuevos medios para Latinoamerica."}<br></br><br></br>
+        {"My Interest arises in the research and production with new technologies in art, with the aim of developing new interactive and cognitive fields of the viewer, as well as the spatial representation of sound and image through the use of gestural control and performance interfaces."}<br></br><br></br>
+        {"In my work I address different aspects of language in contemporary arts, such as installation, performance and improvisation. I was a member and coordinator of the Electro-acoustic Community of Chile CECh 2010 - 2018. In turn, I have shown my works and research in various festivals and colloquia in: Austria, Portugal, Colombia, Argentina, Mexico, Spain, England, France, Peru and Chile."}<br></br>
+        {"I currently work as a teacher and researcher of new media for Latin America."}<br></br><br></br>
+       </h5>
+       </div>
+       <br></br>
+     
+
+      <Vimeo style={{
+      position: "absolute",
+      marginLeft: "1000px",
+      marginTop: "-290px",
+      paddingTop: "0px",
+      widht: "1000px",
+      height: "1000px",
+      opacity: "1.0"
+       }} video="399495243"/>
+      
+    <div>
+      <Link to='/compositores' style={{
+              fontFamily: "'Raleway', sans-serif",
+              color: "black",
+              backgroundColor: "white",
+              fontSize: "80px",
+              fontWeight: "100",
+              fontStyle: "normal",
+              borderStyle: "solid",
+              marginLeft: "10px",
+
+              paddingTop: "0px",
+              borderWidth: "1px",
+              positions: "absolute",
+              opacity: "1.0",
+              width: "75%", 
+              marginBottom: "100px"}} activeStyle={{color: 'red'}}>  Compositores  </Link>   
+    </div>   
+    </div> 
     )
   }
 
-  //onReady={this._onReady} 
-  // _onReady(event) {
-  //   // access to player in all event handlers via event.target
-  //   event.target.pauseVideo();
-  
-export default Composer2
+  export default Composer1

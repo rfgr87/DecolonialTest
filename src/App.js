@@ -13,6 +13,10 @@ import Composers from './components/Composers';
 import Composer1 from './components/Composer1';
 import Composer2 from './components/Composer2';
 import Composer3 from './components/Composer3';
+import Composer4 from './components/Composer4';
+import Composer5 from './components/Composer5';
+import Composer6 from './components/Composer6';
+import Composer7 from './components/Composer7';
 import Manifesto from './components/Manifesto';
 import Micelaneos from './components/Micelaneos';
 import Blog2 from './components/Blog2';
@@ -45,15 +49,37 @@ class App extends Component {
         <Router>
           <div>
             <ul>
-              <li>
+              
               <Link 
               style={{
-                color:"white",
+                color:"cyan",
                 fontFamily: "'Raleway', sans-serif",
                 fontWeight: "200px",
                 fontSize: "20px"
                 }}to='/'> Home</Link>
-              </li>
+              
+              <Link 
+              style={{
+                color:"cyan",
+                fontFamily: "'Raleway', sans-serif",
+                fontWeight: "200px",
+                fontSize: "20px"
+                }}to='/manifesto'> Manifesto</Link>
+              <Link 
+              style={{
+                color:"cyan",
+                fontFamily: "'Raleway', sans-serif",
+                fontWeight: "200px",
+                fontSize: "20px"
+                }}to='/compositores'> Compositores</Link>
+                <Link 
+              style={{
+                color:"cyan",
+                fontFamily: "'Raleway', sans-serif",
+                fontWeight: "200px",
+                fontSize: "20px"
+                }}to='/micelaneos'> Micelaneos</Link>
+              
             </ul>
             <hr />
             <Switch>
@@ -76,6 +102,10 @@ class App extends Component {
           <Route path='/composer1' component = {Composer1}/>
           <Route path='/composer2' component = {Composer2}/>
           <Route path='/composer3' component = {Composer3}/>
+          <Route path='/composer4' component = {Composer4}/>
+          <Route path='/composer5' component = {Composer5}/>
+          <Route path='/composer6' component = {Composer6}/>
+          <Route path='/composer7' component = {Composer7}/>
 
         </Switch> 
           </div>

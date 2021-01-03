@@ -120,13 +120,14 @@ export default function Home() {
   return (
    <div
     style={{ 
+      position: "absolute",
       backgroundImage: `url(${image1})`,
-      height: "100%",
+      height: "120%",
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       width: `100%`,
-      margin: -24,
-      padding: 24
+      marginTop: -24,
+      paddingTop: 24
      }}>
     <React.Fragment>     
       <CssBaseline />
