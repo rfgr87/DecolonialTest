@@ -56,7 +56,7 @@ class App extends Component {
                 fontFamily: "'Raleway', sans-serif",
                 fontWeight: "200px",
                 fontSize: "20px"
-                }}to='/'> Home</Link>
+                }}to='/'> [home]</Link>
               
               <Link 
               style={{
@@ -64,21 +64,21 @@ class App extends Component {
                 fontFamily: "'Raleway', sans-serif",
                 fontWeight: "200px",
                 fontSize: "20px"
-                }}to='/manifesto'> Manifesto</Link>
+                }}to='/manifesto'> [manifesto]</Link>
               <Link 
               style={{
                 color:"cyan",
                 fontFamily: "'Raleway', sans-serif",
                 fontWeight: "200px",
                 fontSize: "20px"
-                }}to='/compositores'> Compositores</Link>
+                }}to='/compositores'> [compositores]</Link>
                 <Link 
               style={{
                 color:"cyan",
                 fontFamily: "'Raleway', sans-serif",
                 fontWeight: "200px",
                 fontSize: "20px"
-                }}to='/micelaneos'> Micelaneos</Link>
+                }}to='/micelaneos'> [micelaneos]</Link>
               
             </ul>
             <hr />

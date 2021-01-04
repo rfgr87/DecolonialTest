@@ -71,7 +71,7 @@ function Composer1(props) {
       backgroundColor: "#6666FF",
       width: "50%",
       textWidth: "1px"
-       }}>Renzo Felinich</h1>
+       }}>Renzo Filinich</h1>
       </div>
      
       <h5 style={{
@@ -113,7 +113,8 @@ function Composer1(props) {
       height: "470px", 
       marginTop: "60px",
       marginLeft: "1050px"}} 
-      src="https://bandcamp.com/EmbeddedPlayer/album=3782459298/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/album/7-ensayos-sobre-la-cosmovisi-n-andina">7 Ensayos sobre la Cosmovisión Andina by Renzo Filinich</a></iframe></div>
+      src="https://bandcamp.com/EmbeddedPlayer/album=3782459298/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/album/7-ensayos-sobre-la-cosmovisi-n-andina">7 Ensayos sobre la Cosmovisión Andina by Renzo Filinich</a></iframe>    
+      </div>
     <div>
     <iframe style={{
       position: "absolute",
@@ -122,16 +123,18 @@ function Composer1(props) {
       height: "470px", 
       marginTop: "60px",
       marginLeft: "1400px"}} 
-      src="https://bandcamp.com/EmbeddedPlayer/track=4156088800/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/esto-no-es-s-ntesis-es-s-ncresis">Esto no es Síntesis, es Síncresis! by Renzo Filinich</a></iframe></div>
-    <div>
+      src="https://bandcamp.com/EmbeddedPlayer/track=4156088800/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/esto-no-es-s-ntesis-es-s-ncresis">Esto no es Síntesis, es Síncresis! by Renzo Filinich</a></iframe>      
+      </div>
+      <div>
     <iframe style={{
       position: "absolute",
       border: 0, 
       width: "350px", 
-      height: "490px", 
+      height: "470px", 
       marginTop: "530px",
       marginLeft: "1400px"}} 
-      src="https://bandcamp.com/EmbeddedPlayer/album=2117347669/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/album/ondas-migratorias">Ondas Migratorias by Renzo Filinich</a></iframe></div>
+      src="https://bandcamp.com/EmbeddedPlayer/album=2117347669/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/album/ondas-migratorias">Ondas Migratorias by Renzo Filinich</a></iframe>
+      </div>
     <div>
     <iframe style={{
       position: "absolute",
@@ -140,7 +143,7 @@ function Composer1(props) {
       height: "470px", 
       marginTop: "530px",
       marginLeft: "1050px"}} 
-      src="https://bandcamp.com/EmbeddedPlayer/track=473125030/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/electroacoustic-improvisation-cook-the-sounds-a-la-anthony-bourdain">Electroacoustic Improvisation - Cook the sounds a la Anthony Bourdain by Renzo Filinich</a></iframe>      </div>
+      src="https://bandcamp.com/EmbeddedPlayer/track=1069000977/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/a-tu-memoria">A tu Memoria by Renzo Filinich</a></iframe>      </div>
     <div>
       <h5 style={{
       position: "relative",
@@ -162,7 +165,6 @@ function Composer1(props) {
       justifyText: "left",
       opacity: "1.0"
        }}> {"[Renzo Filinich Orozco (Lima 1978) Magister en Artes Mediales / Doctorando en Estudios Interdisciplinarios / Master in Media Arts / PhD in Interdisciplinary Studies"}<br></br><br></br>
-
         {"Mi interes surge en la investigacion y produccion con nuevas tecnologías en el arte, con el objetivo de desarrollar nuevos campos interactivos y cognitivos del espectador, así como la representación espacial del sonido y la imagen por medio del uso de interfaces gestuales de control y performance."}<br></br><br></br>
         {"En mi trabajo abordo distintos aspectos del lenguaje en el arte contemporaneo, como la instalacion, la performance y la improvisacion. Fui miembro y coordinador de la Comunidad Electroacustica de Chile CECh 2010 - 2018."}<br></br><br></br>
         {"A su ves, he mostrado mis obras e investigaciones en diversos Festivales y coloquios en: Austria, Portugal, Colombia, Argentina, Mexico, España, Inglaterra, Francia, Peru y Chile. Actualmente trabajo como docente e investigador de nuevos medios para Latinoamerica."}<br></br><br></br>
@@ -172,18 +174,18 @@ function Composer1(props) {
        </h5>
        </div>
        <br></br>
+
+       <iframe style={{
+      position: "absolute",
+      marginLeft: "950px",
+      marginTop: "-700px",
+      paddingTop: "0px",
+      widht: "1400px",
+      height: "1400px",
+      opacity: "1.0"
+       }} src="https://player.vimeo.com/video/399495243" width= "980" height="700" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
      
 
-      <Vimeo style={{
-      position: "absolute",
-      marginLeft: "1000px",
-      marginTop: "-290px",
-      paddingTop: "0px",
-      widht: "1000px",
-      height: "1000px",
-      opacity: "1.0"
-       }} video="399495243"/>
-      
     <div>
       <Link to='/compositores' style={{
               fontFamily: "'Raleway', sans-serif",
