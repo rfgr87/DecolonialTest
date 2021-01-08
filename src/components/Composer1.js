@@ -13,7 +13,7 @@ function Composer1(props) {
     return (
       <div style={{ 
       backgroundImage: `url(${image3})`,
-      height: "4500",
+      height: "200%",
       position: "absolute",
       backgroundPosition: '0px 0px',
       backgroundSize: "100% 100%",  
@@ -27,9 +27,10 @@ function Composer1(props) {
       }}>
     <div>
      <h1 style={{
+      position: 'relative',
       color:"black", 
       fontFamily: "'Raleway', sans-serif",
-      fontSize: "50px",
+      fontSize: "30px",
       fontWeight: "100",
       fontStyle: "normal",
       paddingTop: "10px",
@@ -46,10 +47,10 @@ function Composer1(props) {
       opacity: "1.0",
       marginLeft: "250px",
       marginBottom: "-280px",
-      height: "680px",
-      widht: "380px",
+      height: "500px",
+      widht: "200px",
       backgroundImage: `url(${image6})`,
-      backgroundSize: "580px 380px",
+      backgroundSize: "280px 200px",
       backgroundRepeat: "no-repeat",
        }}></div>
 
@@ -57,22 +58,35 @@ function Composer1(props) {
       style={{
       position: "absolute",
       color:"white", 
-      fontFamily: "'Raleway', sans-serif",
-      fontSize: "30px",
-      fontWeight: "100",
-      fontStyle: "normal",
-      marginLeft: "1000px",
-      marginTop: "-390px",
+      marginLeft: "550px",
+      marginTop: "-200px",
       paddingTop: "0px",
-      backgroundColor: "black",
-      width: "100px",
+      width: "100%",
       textWidth: "10px",
       justifyText: "left",
       opacity: "1.0"
        }}>
-      <ReactPlayer style = {{width: "200px"
-       }}
-        url="https://soundcloud.com/royguzman"
+      <ReactPlayer width="20%"
+            height="50%"
+        url="https://soundcloud.com/royguzman/s_t2"
+       ></ReactPlayer>
+      
+      </div>
+      <div
+      style={{
+      position: "absolute",
+      color:"white", 
+      marginLeft: "1050px",
+      marginTop: "-200px",
+      paddingTop: "0px",
+      width: "100%",
+      textWidth: "10px",
+      justifyText: "left",
+      opacity: "1.0"
+       }}>
+      <ReactPlayer width="20%"
+            height="50%"
+        url="https://soundcloud.com/royguzman/axiomas-indigenas"
        ></ReactPlayer>
       
       </div>
@@ -80,49 +94,49 @@ function Composer1(props) {
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "60px",
-      marginLeft: "1050px"}} 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "65px",
+      marginLeft: "750px"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=97623958/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/sin-t-tulo-28-12-20">sin-título[28-12-20] by Roy F Guzmán</a></iframe>
     </div>
     <div>
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "60px",
-      marginLeft: "1400px"}} 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "65px",
+      marginLeft: "1000px"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=1694358983/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/m">[M] by Roy F Guzman</a></iframe>    </div>
     <div>
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "60px",
-      marginLeft: "1750px"}} 
+      width: "250px", 
+      height: "800px",  
+      marginTop: "65px",
+      marginLeft: "1250px"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=4107089838/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/sin-t-tulo-10-4-20-3">sin-título[10-4-20][3] by Roy F Guzmán</a></iframe>    
       </div>
     <div>
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "530px",
-      marginLeft: "1050px"}} 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "465px",
+      marginLeft: "750px"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=3480594853/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/abstracciones-de-puerto-rico-para-cuarteto-de-cuerdas">Abstracciones de Puerto Rico para Cuarteto de Cuerdas by Roy F Guzmán</a></iframe>
       </div>
       <div>
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "530px",
-      marginLeft: "1750px"}} 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "465px",
+      marginLeft: "1250px"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=1768060898/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/x-05-x-08-x-2005-265">x = 0.5+x*(-0.8)*(x/[2.005..2.65]) by Roy F Guzmán</a></iframe>      
 
     </div>
@@ -130,10 +144,10 @@ function Composer1(props) {
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "530px",
-      marginLeft: "1400px"}} 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "465px",
+      marginLeft: "1000px"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=4291500311/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/axiom-tica-j-bara-para-cuarteto-de-cuerdas">Axiomática Jíbara para Cuarteto de Cuerdas by Roy F Guzmán</a></iframe>    
     </div>
 
@@ -141,30 +155,30 @@ function Composer1(props) {
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "1000px",
-      marginLeft: "1050px"}} 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "865px",
+      marginLeft: "750px"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=1983507765/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/congas">congas by Roy F Guzmán</a></iframe>      
       </div>
     <div>
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "1000px",
-      marginLeft: "1400px"}} 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "865px",
+      marginLeft: "1000px"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=2664903003/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/tito-2">Tito by Roy F Guzman</a></iframe>
     </div>
     <div>
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "1000px",
-      marginLeft: "1750px"}} 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "865px",
+      marginLeft: "1250px"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=836594118/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/sin-t-tulo-25-12-20-1">sin-título[25-12-20][1] by Roy F Guzmán</a></iframe>    </div>
     
    
@@ -175,7 +189,7 @@ function Composer1(props) {
       position: "relative",
       color:"black", 
       fontFamily: "Menlo",
-      fontSize: "25px",
+      fontSize: "15px",
       fontWeight: "100",
       fontStyle: "normal",
       marginLeft: "250px",
@@ -185,7 +199,7 @@ function Composer1(props) {
       borderStyle: "outset",
       padding: "25px",
       backgroundColor: "white",
-      width: "30%",
+      width: "15%",
       textWidth: "10px",
       opacity: "0.7", 
       justifyText: "left",
@@ -200,28 +214,28 @@ function Composer1(props) {
 
       <iframe style={{
       position: "absolute",
-      marginLeft: "800px",
-      marginTop: "40px"
-       }} width="660" height="415" src="https://www.youtube.com/embed/XO6nlItOFww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      marginLeft: "750px",
+      marginTop: "150px"
+       }} width="360" height="215" src="https://www.youtube.com/embed/XO6nlItOFww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
       <iframe style={{
       position: "absolute",
-      marginLeft: "1480px",
-      marginTop: "40px"
-       }} width="660" height="415" src="https://www.youtube.com/embed/C0Thg24vmag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      marginLeft: "1120px",
+      marginTop: "150px"
+       }} width="360" height="215" src="https://www.youtube.com/embed/C0Thg24vmag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
       <iframe style={{
       position: "absolute",
-      marginLeft: "1080px",
-      marginTop: "500px"
-       }} width="760" height="515" src="https://www.youtube.com/embed/lZIuDlVJYQM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      marginLeft: "750px",
+      marginTop: "400px"
+       }} width="460" height="315" src="https://www.youtube.com/embed/lZIuDlVJYQM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <div>
       <Link to='/compositores' style={{
               fontFamily: "'Raleway', sans-serif",
               color: "black",
               backgroundColor: "white",
-              fontSize: "80px",
+              fontSize: "20px",
               fontWeight: "100",
               fontStyle: "normal",
               borderStyle: "solid",

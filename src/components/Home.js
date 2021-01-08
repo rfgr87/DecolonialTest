@@ -122,7 +122,7 @@ export default function Home() {
     style={{ 
       position: "absolute",
       backgroundImage: `url(${image1})`,
-      height: "120%",
+      height: "180%",
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       width: `100%`,
@@ -137,14 +137,16 @@ export default function Home() {
       <Header />        
         <main>
         
-          <Grid style={{
+      <Grid style={{
+      marginTop: "100px",
+      absolute: "absolute",
       color:"white", 
       fontFamily: "'Raleway', sans-serif",
       fontSize: "30px",
       fontWeight: "100",
       fontStyle: "normal",
       marginLeft: "50%",
-      marginTop: "0px",
+      marginTop: "100px",
       paddingTop: "0px",
       backgroundColor: "black",
       width: "50%",

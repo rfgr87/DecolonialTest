@@ -125,7 +125,7 @@ function Composers(props) {
               backgroundColor: "#000000",
               opacity: "0.7",
               width: "75%", 
-              marginTop: "10"}} activeStyle={{color: 'red'}}> Leonel Segovia</Link><br></br><br></br>
+              marginTop: "10"}} activeStyle={{color: 'red'}}> Diego Villaseñor De Cortinas</Link><br></br><br></br>
                <Link to='/composer4'
               style={{
               color:"white", 
@@ -157,7 +157,7 @@ function Composers(props) {
               backgroundColor: "#000000",
               opacity: "0.7",
               width: "75%", 
-              marginTop: "10"}} activeStyle={{color: 'red'}}> Diego Villaseñor de Cortina</Link><br></br><br></br>
+              marginTop: "10"}} activeStyle={{color: 'red'}}> Leonel Segovia</Link><br></br><br></br>
               <Link to='/composer6'
               style={{
               color:"white", 

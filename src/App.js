@@ -72,14 +72,6 @@ class App extends Component {
                 fontWeight: "200px",
                 fontSize: "20px"
                 }}to='/compositores'> [compositores]</Link>
-                <Link 
-              style={{
-                color:"cyan",
-                fontFamily: "'Raleway', sans-serif",
-                fontWeight: "200px",
-                fontSize: "20px"
-                }}to='/micelaneos'> [micelaneos]</Link>
-              
             </ul>
             <hr />
             <Switch>
@@ -98,7 +90,6 @@ class App extends Component {
           <Route path='/compositores' component={Composers}/>
           <Route path='/blog' component={Blog2}/>
           <Route path='/forum' component= {ForumContainer}/>
-          <Route path='/micelaneos' component = {Micelaneos}/>
           <Route path='/composer1' component = {Composer1}/>
           <Route path='/composer2' component = {Composer2}/>
           <Route path='/composer3' component = {Composer3}/>

@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function Composer1(props) {
+function Composer2(props) {
 
   const classes = useStyles();
   const { post } = props;
@@ -47,7 +47,7 @@ function Composer1(props) {
     return (
       <div style={{ 
       backgroundImage: `url(${image1})`,
-      height: "4500",
+      height: "150%",
       position: "absolute",
       backgroundPosition: '0px 0px',
       backgroundSize: "100% 100%",  
@@ -61,9 +61,10 @@ function Composer1(props) {
       }}>
     <div>
      <h1 style={{
+      position: 'relative',
       color:"black", 
       fontFamily: "'Raleway', sans-serif",
-      fontSize: "50px",
+      fontSize: "30px",
       fontWeight: "100",
       fontStyle: "normal",
       paddingTop: "10px",
@@ -79,11 +80,11 @@ function Composer1(props) {
       positions: "absolute",
       opacity: "1.0",
       marginLeft: "10px",
-      marginBottom: "-50px",
-      height: "440px",
-      widht: "380px",
+      marginBottom: "-280px",
+      height: "600px",
+      widht: "200px",
       backgroundImage: `url(${image3})`,
-      backgroundSize: "440px 380px",
+      backgroundSize: "330px 300px",
       backgroundRepeat: "no-repeat",
        }}></h5>
 
@@ -94,72 +95,91 @@ function Composer1(props) {
       fontSize: "30px",
       fontWeight: "100",
       fontStyle: "normal",
-      marginLeft: "1000px",
-      marginTop: "-390px",
+      marginLeft: "500px",
+      marginTop: "-290px",
       paddingTop: "0px",
-      backgroundColor: "black",
       width: "100px",
       textWidth: "10px",
       justifyText: "left",
       opacity: "1.0"
        }}>
-      <Vimeo video="228832049"/>
+      <Vimeo width="450px" heigth="60%" video="228832049"/>
       </div>
       <div>
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "60px",
-      marginLeft: "1050px"}} 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "65px",
+      marginLeft: "450px"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=3782459298/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/album/7-ensayos-sobre-la-cosmovisi-n-andina">7 Ensayos sobre la Cosmovisión Andina by Renzo Filinich</a></iframe>    
       </div>
     <div>
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "60px",
-      marginLeft: "1400px"}} 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "65px",
+      marginLeft: "700px"}} 
       src="https://bandcamp.com/EmbeddedPlayer/track=4156088800/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/esto-no-es-s-ntesis-es-s-ncresis">Esto no es Síntesis, es Síncresis! by Renzo Filinich</a></iframe>      
       </div>
       <div>
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "530px",
-      marginLeft: "1400px"}} 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "460px",
+      marginLeft: "700px"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=2117347669/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/album/ondas-migratorias">Ondas Migratorias by Renzo Filinich</a></iframe>
       </div>
     <div>
     <iframe style={{
       position: "absolute",
       border: 0, 
-      width: "350px", 
-      height: "470px", 
-      marginTop: "530px",
-      marginLeft: "1050px"}} 
-      src="https://bandcamp.com/EmbeddedPlayer/track=1069000977/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/a-tu-memoria">A tu Memoria by Renzo Filinich</a></iframe>      </div>
+      width: "250px", 
+      height: "800px", 
+      marginTop: "460px",
+      marginLeft: "450px"}} 
+      src="https://bandcamp.com/EmbeddedPlayer/track=1069000977/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/a-tu-memoria">A tu Memoria by Renzo Filinich</a></iframe></div>
+      <div>
+      <iframe style={{
+      position: "absolute",
+      border: 0, 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "65px",
+      marginLeft: "950px"}} 
+      src="https://bandcamp.com/EmbeddedPlayer/track=3761010274/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/metasistema-1-homenaje-a-roland-kayn">Metasistema 1- Homenaje a Roland Kayn by Renzo Filinich</a></iframe>    
+      </div>
+      <div>
+       <iframe style={{
+      position: "absolute",
+      border: 0, 
+      width: "250px", 
+      height: "800px", 
+      marginTop: "460px",
+      marginLeft: "950px"}} 
+      src="https://bandcamp.com/EmbeddedPlayer/track=1027233157/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/pulsares-para-piano-y-electronica">Pulsares para piano y electronica by Renzo Filinich</a></iframe>      </div>
+
     <div>
       <h5 style={{
       position: "relative",
       color:"black", 
       fontFamily: "Menlo",
-      fontSize: "25px",
+      fontSize: "15px",
       fontWeight: "100",
       fontStyle: "normal",
       marginLeft: "10px",
       marginTop: "0",
-      border: "blue",
-      borderWidth: "1px",
+      border: "black",
+      borderWidth: "3px",
       borderStyle: "outset",
       padding: "25px",
       backgroundColor: "white",
-      width: "40%",
+      width: "25%",
       textWidth: "10px",
       opacity: "0.7", 
       justifyText: "left",
@@ -177,13 +197,13 @@ function Composer1(props) {
 
        <iframe style={{
       position: "absolute",
-      marginLeft: "950px",
-      marginTop: "-700px",
+      marginLeft: "550px",
+      marginTop: "-850px",
       paddingTop: "0px",
       widht: "1400px",
       height: "1400px",
       opacity: "1.0"
-       }} src="https://player.vimeo.com/video/399495243" width= "980" height="700" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+       }} src="https://player.vimeo.com/video/399495243" width= "580" height="300" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
      
 
     <div>
@@ -191,7 +211,7 @@ function Composer1(props) {
               fontFamily: "'Raleway', sans-serif",
               color: "black",
               backgroundColor: "white",
-              fontSize: "80px",
+              fontSize: "20px",
               fontWeight: "100",
               fontStyle: "normal",
               borderStyle: "solid",
@@ -208,4 +228,4 @@ function Composer1(props) {
     )
   }
 
-  export default Composer1
+  export default Composer2

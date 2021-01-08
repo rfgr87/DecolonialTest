@@ -57,7 +57,7 @@ function Micelaneos(props) {
         position: "absolute",
        backgroundColor: `cyan`,
       //  height: "4000px",
-       backgroundSize: "100%",
+       backgroundSize: "10%",
        backgroundPosition: 'center',
        width: `100%`,
        paddingTop: "0px",
