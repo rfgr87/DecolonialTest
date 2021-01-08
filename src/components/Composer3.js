@@ -104,7 +104,7 @@ function Composer3(props) {
       backgroundColor: "#6666FF",
       width: "50%",
       textWidth: "1px"
-       }}>Diego Villaseñor de Cortinas</h1>
+       }}>Diego Villaseñor de Cortina</h1>
       </div>
      
       <h5 style={{

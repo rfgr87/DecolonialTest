@@ -141,7 +141,7 @@ function Composers(props) {
               backgroundColor: "#000000",
               opacity: "0.7",
               width: "75%", 
-              marginTop: "10"}} activeStyle={{color: 'red'}}> Daniel Flores Dias</Link><br></br><br></br>
+              marginTop: "10"}} activeStyle={{color: 'red'}}> Felipe Corredor Tréllez</Link><br></br><br></br>
               <Link to='/composer5'
               style={{
               color:"white", 
