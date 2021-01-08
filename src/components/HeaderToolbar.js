@@ -20,7 +20,7 @@ import image1 from './foto-decolonial1.jpg';
 
     return (
       <div
-        style={{marginTop: "100px", position: "absolute"}}>
+        style={{marginTop: "15%", position: "absolute", marginLeft: "5%"}}>
           <Link style={{color: "white", fontWeight: "100", background: "black", fontSize: "40px"}} to='/manifesto'>  Manifesto  </Link><br></br>
           <Link style={{color: "white", fontWeight: "100",  background: "black", fontSize: "40px"}} to='/compositores'>  Compositores  </Link><br></br>
           <Link style={{color: "white", fontWeight: "100",  background: "black", fontSize: "40px"}} to='/blog'>  Blog  </Link><br></br>

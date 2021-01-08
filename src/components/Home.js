@@ -138,7 +138,7 @@ export default function Home() {
         <main>
         
       <Grid style={{
-      marginTop: "100px",
+      marginTop: "15%",
       absolute: "absolute",
       color:"white", 
       fontFamily: "'Raleway', sans-serif",
@@ -146,7 +146,6 @@ export default function Home() {
       fontWeight: "100",
       fontStyle: "normal",
       marginLeft: "50%",
-      marginTop: "100px",
       paddingTop: "0px",
       backgroundColor: "black",
       width: "50%",

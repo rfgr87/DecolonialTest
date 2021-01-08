@@ -21,7 +21,7 @@ export default function Sidebar(props) {
   const { archives, description, social, title } = props;
 
   return (
-    <Grid item xs={12} md={4} marginTop="0px" >
+    <Grid item xs={12} md={4}>
      
       <h2 style={{ fontSize: "25px", marginTop: "0px"}}>  Archives</h2>
       

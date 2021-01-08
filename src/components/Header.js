@@ -59,20 +59,18 @@ export default function Header(props) {
   
     <React.Fragment>
       <Toolbar className={classes.toolbar} >
-        <Button style={{ color: "black", background: "white", fontSize: "25px", opacity: "1.0", marginTop: "0px" }}>Subscribe</Button>
+        <Button style={{ position: "absolute", marginLeft: "5%",  color: "black", background: "white", fontSize: "15px", opacity: "1.0", marginTop: "0px" }}>Subscribe</Button>
         <Typography style={{
-      color:"black", fontSize: "80px", marginTop: "200px" , background: "black", color: "white"}}
-          component="h2"
-          variant="h5"
-          align="center"
-          noWrap
-          className={classes.toolbarTitle}>
+          position: "absolute",
+          padding: "10px",
+          marginLeft: "25%",
+          width: "580px", color:"black", fontSize: "60px", marginTop: "200px", background: "black", color: "white"}}>
           {"Decolonial Records"}
         </Typography>
         <IconButton>
-          <SearchIcon style={{ color: "black", background: "white", fontSize: "55px", opacity: "1.0" }} />
+          <SearchIcon style={{ marginLeft: "75%", position: "absolute", color: "black", background: "white", fontSize: "35px", opacity: "1.0" }} />
         </IconButton>
-        <Button style={{ color: "black", background: "white", fontSize: "25px", opacity: "1.0" }} >
+        <Button style={{ marginLeft: "85%", color: "black", background: "white", fontSize: "15px", opacity: "1.0" }} >
           Sign up
         </Button>
       </Toolbar>
