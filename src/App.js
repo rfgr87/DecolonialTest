@@ -18,7 +18,7 @@ import Composer5 from './components/Composer5';
 import Composer6 from './components/Composer6';
 import Composer7 from './components/Composer7';
 import Manifesto from './components/Manifesto';
-import Micelaneos from './components/Micelaneos';
+import Releases from './components/Releases';
 import Blog2 from './components/Blog2';
 import ForumContainer from "./containers/ForumContainer";
 
@@ -72,6 +72,13 @@ class App extends Component {
                 fontWeight: "200px",
                 fontSize: "20px"
                 }}to='/compositores'> [compositores]</Link>
+                 <Link 
+              style={{
+                color:"cyan",
+                fontFamily: "'Raleway', sans-serif",
+                fontWeight: "200px",
+                fontSize: "20px"
+                }}to='/releases'> [releases]</Link>
             </ul>
             <hr />
             <Switch>
@@ -88,6 +95,7 @@ class App extends Component {
           <Route exact path="/home" component={Home}/>
           <Route path='/manifesto' component={Manifesto}/>
           <Route path='/compositores' component={Composers}/>
+          <Route path='/releases' component={Releases}/>
           <Route path='/blog' component={Blog2}/>
           <Route path='/forum' component= {ForumContainer}/>
           <Route path='/composer1' component = {Composer1}/>

@@ -75,18 +75,23 @@ function MainFeaturedPost(props) {
     <h5 style={{position: "absolute", marginTop: "450px", backgroundColor: "white", fontSize: "100px", width:"100%", marginLeft: "10px"}}>iajnsvoasn</h5>
 
     <Paper className={classes.mainFeaturedPost} >
-    <h1 style = {{position: 'absolute',
-      color:"black", 
-      fontFamily: "'Raleway', sans-serif",
-      fontSize: "30px",
-      fontWeight: "100",
+    <h1 style = {{
+      position: "absolute",
+      color: "black", 
+      fontFamily: "Menlo", //"'Raleway', sans-serif",
+      fontSize: "35px",
+      fontWeight: "800",
       fontStyle: "normal",
-      paddingTop: "10px",
-      marginLeft: "0px",
-      backgroundColor: "#6666FF",
-      width: "50%",
+      paddingTop: "0px",
+      backgroundColor: "white", //"#6666FF",
+      width: "75%",
+      padding: "2px",
       textWidth: "1px",
-      marginTop: "-120px"
+      opacity: "0.7", 
+      justifyText: "left",
+      opacity: "1.0",
+      marginTop: "-15.75%"
+
        }}> Manifesto</h1>
        <h5 style={{
       color:"black", 
@@ -125,7 +130,7 @@ function MainFeaturedPost(props) {
       backgroundImage: `url(${image1})`,
       width: "1000%"
        }}> 
-       Decolonial Records<br></br></h5>
+     <br></br></h5>
       <h5 style={{
       color: "black", 
       fontFamily: "Menlo",
@@ -141,10 +146,9 @@ function MainFeaturedPost(props) {
       marginLeft: "105%",
       width: "80%"
        }}> 
-       {"Está dedicado a la música contemporánea y experimental Latino Americana. con la misión de formar mediante actos decoloniales no solo una identidad futurística Latino Americana pero también una reinvindicación de la ancestral mediante propuestas estéticas y conceptuales."}<br></br>
+       {"Decolonial Records está dedicado a la música contemporánea y experimental Latino Americana con la misión de formar mediante actos decoloniales una identidad futurística Latino Americana abrazando el folclor y buscando el desprendimiento de asociaciones convenidas por el condicionamiento occidental."}<br></br>
        </h5>
     </Paper>
-
 
   <h5 style={{
       color: "black", 

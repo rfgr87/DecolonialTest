@@ -76,7 +76,7 @@ function Composers(props) {
       opacity: "0.7", 
       justifyText: "left",
       opacity: "1.0"
-       }}>Compsitores</h1>
+       }}>Compositores</h1>
             
             <Link to='/composer1'
             style={{
@@ -142,6 +142,8 @@ function Composers(props) {
               opacity: "0.7",
               width: "75%", 
               marginTop: "10"}} activeStyle={{color: 'red'}}> Felipe Corredor Tréllez</Link><br></br><br></br>
+              
+{/*               
               <Link to='/composer5'
               style={{
               color:"white", 
@@ -205,7 +207,7 @@ function Composers(props) {
               backgroundColor: "#000000",
               opacity: "0.7",
               width: "75%", 
-              marginTop: "10"}} activeStyle={{color: 'red'}}> Byron Muñoz</Link>
+              marginTop: "10"}} activeStyle={{color: 'red'}}> Byron Muñoz</Link> */}
           </div>       
     </Paper>
 

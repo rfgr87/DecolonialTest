@@ -137,29 +137,7 @@ export default function Home() {
       <Header />        
         <main>
         
-      <Grid style={{
-      marginTop: "15%",
-      absolute: "absolute",
-      color:"white", 
-      fontFamily: "'Raleway', sans-serif",
-      fontSize: "30px",
-      fontWeight: "100",
-      fontStyle: "normal",
-      marginLeft: "50%",
-      paddingTop: "0px",
-      backgroundColor: "black",
-      width: "50%",
-      textWidth: "10px",
-      opacity: "1.0", 
-      justifyText: "left",
-       }}container spacing={5} className={classes.mainGrid}>
-            <Sidebar
-              title={sidebar.title}
-              description={sidebar.description}
-              archives={sidebar.archives}
-              social={sidebar.social}
-            />
-          </Grid>
+     
         </main>
       </Container>
     </React.Fragment>
