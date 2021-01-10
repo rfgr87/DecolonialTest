@@ -8,35 +8,33 @@ import image2 from './foto-decolonial222.png';
 import image1 from './foto-decolonial1.jpg';
 import image3 from './foto-loiza.png';
 
-
-
 function MainFeaturedPost(props) {
 
-
-
     return (
-      <div style={{ 
+    <div style={{ 
+        position: "absolute",
         backgroundImage: `url(${image2})`,
-        height: 800,
+        height: "100%",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         width: "100%",
         margin: -24,
         padding: 24}}>
-    <h5 style={{position: "absolute", marginTop: "2px", backgroundColor: "white", fontSize: "40px", width:"100%"}}>iajns</h5>
 
-    <h5 style={{position: "absolute", marginTop: "450px", backgroundColor: "white", fontSize: "100px", width:"100%", marginLeft: "10px"}}>iajnsvoasn</h5>
+    <h5 style={{position: "absolute", marginTop: "-0.5%", backgroundColor: "white", fontSize: "40px", width:"100%", height: "8%"}}></h5>
+
+    <h5 style={{position: "absolute", marginTop: "37%", backgroundColor: "white", fontSize: "100px", width:"100%", marginLeft: "10px", height: "8%"}}></h5>
 
     <div style = {{
     position: 'absolute',
-    marginTop: '100px',
+    position: "absolute",
+    marginTop: '12%',
     backgroundColor: "white",
-    backgroundColor: "white", //"#00FFFF",
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    height: 700,
-    width: "45%",
+    height: "70%",
+    width: "47%",
     marginLeft: "10px"
   }}>
     <h1 style = {{
@@ -54,8 +52,9 @@ function MainFeaturedPost(props) {
       opacity: "0.7", 
       justifyText: "left",
       opacity: "1.0",
-      marginTop: "-15.75%"
+      marginTop: "-25%"
        }}>Manifesto</h1>
+
        <h5 style={{
       color:"black", 
       fontFamily: "Menlo",
@@ -64,32 +63,27 @@ function MainFeaturedPost(props) {
       fontStyle: "normal",
       paddingTop: "5%",
       paddingLeft: "5%",
-      positions: "absolute",
+      position: "absolute",
       backgroundColor: "white", //"#000000",
       opacity: "1.0",   
-      marginLeft: "5%",
-      marginTop: "50px",
-      width: "69%",
-      // backgroundImage: `url(${image3})`,
-      paddingBottom: "5%"
-       }}> 
+      marginLeft: "12%",
+      marginTop: "9%",
+      width: "50%",
+      height: "80%",
+      }}> 
        {"[Decolonialidad, Apropiación, Futurismo]"}<br></br></h5>
-       <h5 style={{
-      color: "black", 
-      fontFamily: "'Raleway', sans-serif",
-      fontSize: "15px",
-      fontWeight: "bold",
+
+      <h5 style={{
+      color: "black",   
       fontStyle: "normal",
-      paddingTop: "130px",
-      bottomMargin: "20px",
-      padding: "10px",
-      positions: "absolute",
+      position: "absolute",
       backgroundColor: "black",
       opacity: "1.0",
-      marginLeft: "5%",
-      marginTop: "160px",
+      marginLeft: "0%",
+      marginTop: "57%",
       backgroundImage: `url(${image1})`,
-      width: "1000%"
+      width: "1000%",
+      height: "5%"
        }}> 
      <br></br></h5>
       <h5 style={{
@@ -97,7 +91,7 @@ function MainFeaturedPost(props) {
       fontFamily: "Menlo",
       fontSize: "15px",
       fontWeight: "bold",
-      marginTop: "-78%",
+      marginTop: "2%",
       fontStyle: "normal",
       padding: 100,
       position: "absolute",
@@ -124,7 +118,7 @@ function MainFeaturedPost(props) {
       backgroundColor: "black",
       opacity: "1.0",
       marginLeft: "5%",
-      marginTop: "55px",
+      marginTop: "7%",
       backgroundImage: `url(${image1})`,
       width: "2.5%"
        }}><br></br></h5>
@@ -141,7 +135,7 @@ function MainFeaturedPost(props) {
       backgroundColor: "black",
       opacity: "1.0",
       marginLeft: "21%",
-      marginTop: "55px",
+      marginTop: "7%",
       backgroundImage: `url(${image1})`,
       width: "15%"
        }}><br></br></h5>
@@ -159,7 +153,7 @@ function MainFeaturedPost(props) {
       backgroundColor: "black",
       opacity: "1.0",
       marginLeft: "50%",
-      marginTop: "55px",
+      marginTop: "7%",
       backgroundImage: `url(${image1})`,
       width: "5%"
        }}><br></br></h5>
@@ -177,7 +171,7 @@ function MainFeaturedPost(props) {
       backgroundColor: "black",
       opacity: "1.0",
       marginLeft: "75%",
-      marginTop: "55px",
+      marginTop: "7%",
       backgroundImage: `url(${image1})`,
       width: "2%"
        }}><br></br></h5>
@@ -195,11 +189,10 @@ function MainFeaturedPost(props) {
       backgroundColor: "black",
       opacity: "1.0",
       marginLeft: "65%",
-      marginTop: "55px",
+      marginTop: "7%",
       backgroundImage: `url(${image1})`,
       width: "1%"
        }}><br></br></h5>
-
 
     <h5 style={{
       color: "black", 
@@ -214,13 +207,10 @@ function MainFeaturedPost(props) {
       backgroundColor: "black",
       opacity: "1.0",
       marginLeft: "85%",
-      marginTop: "55px",
+      marginTop: "7%",
       backgroundImage: `url(${image1})`,
       width: "5%"
        }}><br></br></h5>
-      
-
-
     </div>
     )
   }

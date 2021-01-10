@@ -13,53 +13,52 @@ function Composer1(props) {
     return (
       <div style={{ 
       backgroundImage: `url(${image3})`,
-      height: "200%",
+      height: "100%",
       position: "absolute",
       backgroundPosition: '0px 0px',
       backgroundSize: "100% 100%",  
       backgroundRepeat: "no-repeat",
-      width: "2350px",
+      width: "150%",
       paddingBottom: "80%",  
-      marginBottom: "100px",  
       paddingTop: 24,
       marginTop: -24,
-      marginLeft: -230,
+      marginLeft:"-16%"
       }}>
     <div>
      <h1 style={{
       position: 'relative',
       color:"black", 
       fontFamily: "'Raleway', sans-serif",
-      fontSize: "30px",
+      fontSize: "175%",
       fontWeight: "100",
       fontStyle: "normal",
-      paddingTop: "10px",
-      marginLeft: "250px",
+      paddingTop: "0%",
+      marginLeft: "12.5%",
       backgroundColor: "#6666FF",
       width: "50%",
       textWidth: "1px"
        }}>Roy F Guzmán</h1>
       </div>
      
-      <div style={{
-      marginLeft: "250px",
-      positions: "absolute",
+      <h5 style={{
+      marginLeft: "10%",
+      position: "absolute",
       opacity: "1.0",
-      marginLeft: "250px",
-      marginBottom: "-280px",
-      height: "500px",
-      widht: "200px",
+      marginLeft: "12.5%",
+      marginBottom: "0",
+      height: "35%",
+      width: "45%",
       backgroundImage: `url(${image6})`,
-      backgroundSize: "280px 200px",
+      backgroundSize: "45% 45%",
       backgroundRepeat: "no-repeat",
-       }}></div>
+       }}></h5>
 
       <div
       style={{
       position: "absolute",
       color:"white", 
-      marginLeft: "550px",
-      marginTop: "-200px",
+      marginLeft: "35%",
+      marginTop: "5%",
       paddingTop: "0px",
       width: "100%",
       textWidth: "10px",
@@ -76,8 +75,8 @@ function Composer1(props) {
       style={{
       position: "absolute",
       color:"white", 
-      marginLeft: "1050px",
-      marginTop: "-200px",
+      marginLeft: "56%",
+      marginTop: "5%",
       paddingTop: "0px",
       width: "100%",
       textWidth: "10px",
@@ -96,8 +95,8 @@ function Composer1(props) {
       border: 0, 
       width: "250px", 
       height: "800px", 
-      marginTop: "65px",
-      marginLeft: "750px"}} 
+      marginTop: "15%",
+      marginLeft: "37%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=97623958/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/sin-t-tulo-28-12-20">sin-título[28-12-20] by Roy F Guzmán</a></iframe>
     </div>
     <div>
@@ -106,8 +105,8 @@ function Composer1(props) {
       border: 0, 
       width: "250px", 
       height: "800px", 
-      marginTop: "65px",
-      marginLeft: "1000px"}} 
+      marginTop: "15%",
+      marginLeft: "49.8%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=1694358983/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/m">[M] by Roy F Guzman</a></iframe>    </div>
     <div>
     <iframe style={{
@@ -115,8 +114,8 @@ function Composer1(props) {
       border: 0, 
       width: "250px", 
       height: "800px",  
-      marginTop: "65px",
-      marginLeft: "1250px"}} 
+      marginTop: "15%",
+      marginLeft: "62.5%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=4107089838/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/sin-t-tulo-10-4-20-3">sin-título[10-4-20][3] by Roy F Guzmán</a></iframe>    
       </div>
     <div>
@@ -125,8 +124,8 @@ function Composer1(props) {
       border: 0, 
       width: "250px", 
       height: "800px", 
-      marginTop: "465px",
-      marginLeft: "750px"}} 
+      marginTop: "35%",
+      marginLeft: "37%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=3480594853/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/abstracciones-de-puerto-rico-para-cuarteto-de-cuerdas">Abstracciones de Puerto Rico para Cuarteto de Cuerdas by Roy F Guzmán</a></iframe>
       </div>
       <div>
@@ -135,8 +134,8 @@ function Composer1(props) {
       border: 0, 
       width: "250px", 
       height: "800px", 
-      marginTop: "465px",
-      marginLeft: "1250px"}} 
+      marginTop: "35%",
+      marginLeft: "49.8%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=1768060898/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/x-05-x-08-x-2005-265">x = 0.5+x*(-0.8)*(x/[2.005..2.65]) by Roy F Guzmán</a></iframe>      
 
     </div>
@@ -146,8 +145,8 @@ function Composer1(props) {
       border: 0, 
       width: "250px", 
       height: "800px", 
-      marginTop: "465px",
-      marginLeft: "1000px"}} 
+      marginTop: "35%",
+      marginLeft: "62.5%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=4291500311/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/axiom-tica-j-bara-para-cuarteto-de-cuerdas">Axiomática Jíbara para Cuarteto de Cuerdas by Roy F Guzmán</a></iframe>    
     </div>
 
@@ -157,8 +156,8 @@ function Composer1(props) {
       border: 0, 
       width: "250px", 
       height: "800px", 
-      marginTop: "865px",
-      marginLeft: "750px"}} 
+      marginTop: "55%",
+      marginLeft: "37%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=1983507765/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/congas">congas by Roy F Guzmán</a></iframe>      
       </div>
     <div>
@@ -167,8 +166,8 @@ function Composer1(props) {
       border: 0, 
       width: "250px", 
       height: "800px", 
-      marginTop: "865px",
-      marginLeft: "1000px"}} 
+      marginTop: "55%",
+      marginLeft: "49.8%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=2664903003/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/tito-2">Tito by Roy F Guzman</a></iframe>
     </div>
     <div>
@@ -177,29 +176,26 @@ function Composer1(props) {
       border: 0, 
       width: "250px", 
       height: "800px", 
-      marginTop: "865px",
-      marginLeft: "1250px"}} 
+      marginTop: "55%",
+      marginLeft: "62.5%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=836594118/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://royguzman.bandcamp.com/album/sin-t-tulo-25-12-20-1">sin-título[25-12-20][1] by Roy F Guzmán</a></iframe>    </div>
-    
-   
-    
-      
+       
     <div>
       <h5 style={{
-      position: "relative",
+      position: "absolute",
       color:"black", 
       fontFamily: "Menlo",
-      fontSize: "15px",
+      fontSize: "80%",
       fontWeight: "100",
       fontStyle: "normal",
-      marginLeft: "250px",
-      marginTop: "0",
+      marginLeft: "12.5%",
+      marginTop: "17%",
       border: "black",
       borderWidth: "3px",
       borderStyle: "outset",
       padding: "25px",
       backgroundColor: "white",
-      width: "15%",
+      width: "20%",
       textWidth: "10px",
       opacity: "0.7", 
       justifyText: "left",
@@ -215,38 +211,37 @@ function Composer1(props) {
       <iframe style={{
       position: "absolute",
       marginLeft: "750px",
-      marginTop: "150px"
-       }} width="360" height="215" src="https://www.youtube.com/embed/XO6nlItOFww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      marginTop: "74%"
+       }} width="20%" height="15%" src="https://www.youtube.com/embed/XO6nlItOFww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
       <iframe style={{
       position: "absolute",
-      marginLeft: "1120px",
-      marginTop: "150px"
-       }} width="360" height="215" src="https://www.youtube.com/embed/C0Thg24vmag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      marginLeft: "57.5%",
+      marginTop: "74%"
+       }} width="20%" height="15%" src="https://www.youtube.com/embed/C0Thg24vmag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
       <iframe style={{
       position: "absolute",
       marginLeft: "750px",
-      marginTop: "400px"
-       }} width="460" height="315" src="https://www.youtube.com/embed/lZIuDlVJYQM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      marginTop: "88%"
+       }} width="20%" height="15%" src="https://www.youtube.com/embed/lZIuDlVJYQM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    <div>
-      <Link to='/compositores' style={{
-              fontFamily: "'Raleway', sans-serif",
-              color: "black",
-              backgroundColor: "white",
-              fontSize: "20px",
-              fontWeight: "100",
-              fontStyle: "normal",
-              borderStyle: "solid",
-              marginLeft: "250px",
-
-              paddingTop: "0px",
-              borderWidth: "1px",
-              positions: "absolute",
-              opacity: "1.0",
-              width: "75%", 
-              marginBottom: "100px"}} activeStyle={{color: 'red'}}>  Compositores  </Link>   
+<div>
+    <Link to='/compositores' style={{
+        fontFamily: "'Raleway', sans-serif",
+        color: "black",
+        backgroundColor: "white",
+        fontSize: "100%",
+        fontWeight: "100",
+        fontStyle: "normal",
+        borderStyle: "solid",
+        marginLeft: "12.5%",
+        marginTop: "68%",
+        paddingTop: "0px",
+        borderWidth: "1px",
+        position: "absolute",
+        opacity: "1.0",
+        width: "7%"}} activeStyle={{color: 'red'}}>  Compositores  </Link>   
     </div>   
     </div> 
     )
