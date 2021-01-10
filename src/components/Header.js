@@ -40,7 +40,7 @@ export default function Header(props) {
           marginLeft: "1%",
           width: "92%",
           fontSize: "100px", 
-          marginTop: "30%", 
+          marginTop: "10%", 
           backgroundImage: `url(${image1})`,          
           color: "black"}}>
           {"Decolonial Records"}
