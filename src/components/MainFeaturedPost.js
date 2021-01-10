@@ -23,11 +23,11 @@ function MainFeaturedPost(props) {
         width: "100%",
         margin: -24,
         padding: 24}}>
-    <h5 style={{position: "absolute", marginTop: "1px", backgroundColor: "white", fontSize: "40px", width:"100%"}}>iajnsvoasn</h5>
+    <h5 style={{position: "absolute", marginTop: "2px", backgroundColor: "white", fontSize: "40px", width:"100%"}}>iajns</h5>
 
     <h5 style={{position: "absolute", marginTop: "450px", backgroundColor: "white", fontSize: "100px", width:"100%", marginLeft: "10px"}}>iajnsvoasn</h5>
 
-    <div  style = {{
+    <div style = {{
     position: 'absolute',
     marginTop: '100px',
     backgroundColor: "white",
@@ -38,8 +38,7 @@ function MainFeaturedPost(props) {
     height: 700,
     width: "45%",
     marginLeft: "10px"
-
-  }} >
+  }}>
     <h1 style = {{
       position: "absolute",
       color: "black", 
@@ -56,8 +55,7 @@ function MainFeaturedPost(props) {
       justifyText: "left",
       opacity: "1.0",
       marginTop: "-15.75%"
-
-       }}> Manifesto</h1>
+       }}>Manifesto</h1>
        <h5 style={{
       color:"black", 
       fontFamily: "Menlo",
@@ -68,14 +66,12 @@ function MainFeaturedPost(props) {
       paddingLeft: "5%",
       positions: "absolute",
       backgroundColor: "white", //"#000000",
-      opacity: "1.0",
-     
+      opacity: "1.0",   
       marginLeft: "5%",
       marginTop: "50px",
       width: "69%",
       // backgroundImage: `url(${image3})`,
-      paddingBottom: "5%",
-
+      paddingBottom: "5%"
        }}> 
        {"[Decolonialidad, Apropiación, Futurismo]"}<br></br></h5>
        <h5 style={{
@@ -104,7 +100,7 @@ function MainFeaturedPost(props) {
       marginTop: "-78%",
       fontStyle: "normal",
       padding: 100,
-      positions: "absolute",
+      position: "absolute",
       backgroundColor: "white", //"#00FFFF",
       backgroundSize: "1000px",
       opacity: "1.0",
