@@ -2,7 +2,7 @@
 {
   "start": "node server/server.js",
 
-  "name": "simbiosis-frontend",
+  "name": "decolonial-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

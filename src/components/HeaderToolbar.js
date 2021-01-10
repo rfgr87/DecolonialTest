@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import Toolbar from '@material-ui/core/Toolbar';
-import { makeStyles } from '@material-ui/core/styles';
 import Composers from '../components/Composers';
 import Composer1 from '../components/Composer1';
 import Composer2 from '../components/Composer2';

@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import image1 from './foto-felipe1.png';
 import image2 from './foto-felipe2.jpg';
@@ -42,39 +41,8 @@ import Typography from '@material-ui/core/Typography';
 import ReactPlayer from "react-player";
 import Vimeo from '@u-wave/react-vimeo';
 
-const useStyles = makeStyles((theme) => ({
-  mainFeaturedPost: {
-    position: 'absolute',
-    backgroundColor: theme.palette.grey[100],
-    color: theme.palette.common.white,
-    marginBottom: theme.spacing(10),
-    backgroundImage: image1,
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    height: 800
-
-  },
-  overlay: {
-    position: 'absolute',
-    top: 0,
-    bottom: 0,
-    right: 0,
-    left: 0,
-    backgroundColor: 'rgba(0,0,0,.3)',
-  },
-  mainFeaturedPostContent: {
-    position: 'absolute',
-    justifyContent: 'center',
-    alignItems: 'center',
-    paddingLeft: '30%',
-  },
-}));
-
 function Composer4(props) {
 
-  const classes = useStyles();
-  const { post } = props;
 
     return (
       <div style={{ 

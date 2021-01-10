@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
@@ -11,55 +10,9 @@ import image3 from './foto-loiza.png';
 
 
 
-const useStyles = makeStyles((theme) => ({
-  
-  mainFeaturedPost2: {
-    marginTop: '-10px',
-    position: 'absolute',
-    backgroundColor: theme.palette.grey[100],
-    backgroundColor: "white", //"#00FFFF",
-    backgroundImage: image1,
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    height: 100
-
-  },
-  
-  
-  mainFeaturedPost: {
-    position: 'absolute',
-    marginTop: '100px',
-    backgroundColor: theme.palette.grey[100],
-    backgroundColor: "white", //"#00FFFF",
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-    backgroundPosition: 'center',
-    height: 700,
-    width: "45%",
-    marginLeft: "10px"
-
-  },
-  overlay: {
-    position: 'absolute',
-    top: 0,
-    bottom: 0,
-    right: 0,
-    left: 0,
-    backgroundColor: 'rgba(0,0,0,.3)',
-  },
-  mainFeaturedPostContent: {
-    position: 'absolute',
-    justifyContent: 'center',
-    alignItems: 'center',
-    paddingLeft: '30%',
-  },
-}));
-
 function MainFeaturedPost(props) {
 
-  const classes = useStyles();
-  const { post } = props;
+
 
     return (
       <div style={{ 
@@ -74,7 +27,19 @@ function MainFeaturedPost(props) {
 
     <h5 style={{position: "absolute", marginTop: "450px", backgroundColor: "white", fontSize: "100px", width:"100%", marginLeft: "10px"}}>iajnsvoasn</h5>
 
-    <Paper className={classes.mainFeaturedPost} >
+    <div  style = {{
+    position: 'absolute',
+    marginTop: '100px',
+    backgroundColor: "white",
+    backgroundColor: "white", //"#00FFFF",
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    height: 700,
+    width: "45%",
+    marginLeft: "10px"
+
+  }} >
     <h1 style = {{
       position: "absolute",
       color: "black", 
@@ -148,7 +113,7 @@ function MainFeaturedPost(props) {
        }}> 
        {"Decolonial Records está dedicado a la música contemporánea y experimental Latino Americana con la misión de formar mediante actos decoloniales una identidad futurística Latino Americana abrazando el folclor y buscando el desprendimiento de asociaciones convenidas por el condicionamiento occidental."}<br></br>
        </h5>
-    </Paper>
+    </div>
 
   <h5 style={{
       color: "black", 
@@ -260,7 +225,6 @@ function MainFeaturedPost(props) {
       
 
 
-    <Paper className={classes.mainFeaturedPost2} ></Paper>
     </div>
     )
   }
