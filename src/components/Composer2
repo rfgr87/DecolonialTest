@@ -15,17 +15,18 @@ function Composer2(props) {
 
     return (
       <div style={{ 
-        backgroundImage: `url(${image1})`,
-        height: "120%",
-        position: "absolute",
-        backgroundPosition: '0px 0px',
-        backgroundSize: "100% 100%",  
-        backgroundRepeat: "no-repeat",
-        width: "100%",
-        paddingBottom: "80%",  
-        paddingTop: 24,
-        marginTop: -24,
-        marginLeft:"0%"
+      backgroundImage: `url(${image1})`,
+      height: "150%",
+      position: "absolute",
+      backgroundPosition: '0px 0px',
+      backgroundSize: "100% 100%",  
+      backgroundRepeat: "no-repeat",
+      paddingBottom: "80%",  
+      marginBottom: "100px",  
+      paddingTop: 24,
+      marginTop: -24,
+      marginLeft: 0,
+      paddingLeft: "10px",
       }}>
     <div>
      <h1 style={{
@@ -56,23 +57,25 @@ function Composer2(props) {
       backgroundRepeat: "no-repeat",
        }}></h5>
 
-      <iframe style={{
+      <div style={{
       position: "absolute",
-      marginLeft: "38%",
-      marginTop: "-27.5%",
-      width: "45%",
-      height: "23.27%",
+    
+      marginLeft: "30%",
+      marginTop: "-20%",
+      width: "50%",
+      heigth: "50%",
       opacity: "1.0"
-       }} src="https://player.vimeo.com/video/228832049" width= "600px" height="0px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>     
+       }}>
+      <Vimeo width="100%" heigth="100%" video="228832049"/>
+      </div>
       <div>
-
     <iframe style={{
        position: "absolute",
        border: 0, 
        width: "250px", 
        height: "800px", 
-       marginTop: "3%",
-       marginLeft: "37%"}} 
+       marginTop: "0%",
+       marginLeft: "33%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=3782459298/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/album/7-ensayos-sobre-la-cosmovisi-n-andina">7 Ensayos sobre la Cosmovisión Andina by Renzo Filinich</a></iframe>    
       </div>
     <div>
@@ -81,8 +84,8 @@ function Composer2(props) {
        border: 0, 
        width: "250px", 
        height: "800px", 
-       marginTop: "3%",
-       marginLeft: "57.0%"}} 
+       marginTop: "0%",
+       marginLeft: "51.0%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/track=4156088800/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/esto-no-es-s-ntesis-es-s-ncresis">Esto no es Síntesis, es Síncresis! by Renzo Filinich</a></iframe>      
       </div>
       <div>
@@ -91,8 +94,8 @@ function Composer2(props) {
        border: 0, 
        width: "250px", 
        height: "800px",  
-       marginTop: "3%",
-       marginLeft: "77%"}} 
+       marginTop: "0%",
+       marginLeft: "69%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/album=2117347669/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/album/ondas-migratorias">Ondas Migratorias by Renzo Filinich</a></iframe>
       </div>
     <div>
@@ -101,8 +104,8 @@ function Composer2(props) {
       border: 0, 
       width: "250px", 
       height: "800px", 
-      marginTop: "34.5%",
-      marginLeft: "37%"}} 
+      marginTop: "28.5%",
+      marginLeft: "33%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/track=1069000977/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/a-tu-memoria">A tu Memoria by Renzo Filinich</a></iframe></div>
       <div>
       <iframe style={{
@@ -110,8 +113,8 @@ function Composer2(props) {
       border: 0, 
       width: "250px", 
       height: "800px", 
-      marginTop: "34.5%",
-      marginLeft: "57.0%"}} 
+      marginTop: "28.5%",
+      marginLeft: "51.0%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/track=3761010274/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/metasistema-1-homenaje-a-roland-kayn">Metasistema 1- Homenaje a Roland Kayn by Renzo Filinich</a></iframe>    
       </div>
       <div>
@@ -120,30 +123,30 @@ function Composer2(props) {
       border: 0, 
       width: "250px", 
       height: "800px", 
-      marginTop: "34.5%",
-      marginLeft: "77%"}} 
+      marginTop: "28.5%",
+      marginLeft: "69%"}} 
       src="https://bandcamp.com/EmbeddedPlayer/track=1027233157/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://renzofilinich.bandcamp.com/track/pulsares-para-piano-y-electronica">Pulsares para piano y electronica by Renzo Filinich</a></iframe>      </div>
 
     <div>
       <h5 style={{
-      position: "absolute",
-      color:"black", 
-      fontFamily: "Menlo",
-      fontSize: "80%",
-      fontWeight: "100",
-      fontStyle: "normal",
-      marginLeft: "0.5%",
-      marginTop: "-0.5%",
-      border: "black",
-      borderWidth: "3px",
-      borderStyle: "outset",
-      padding: "25px",
-      backgroundColor: "white",
-      width: "30%",
-      textWidth: "10px",
-      opacity: "0.7", 
-      justifyText: "left",
-      opacity: "1.0"
+       position: "absolute",
+       color:"black", 
+       fontFamily: "Menlo",
+       fontSize: "80%",
+       fontWeight: "100",
+       fontStyle: "normal",
+       marginLeft: "12.5%",
+       marginTop: "17%",
+       border: "black",
+       borderWidth: "3px",
+       borderStyle: "outset",
+       padding: "25px",
+       backgroundColor: "white",
+       width: "20%",
+       textWidth: "10px",
+       opacity: "0.7", 
+       justifyText: "left",
+       opacity: "1.0"
        }}> {"[Renzo Filinich Orozco (Lima 1978) Magister en Artes Mediales / Doctorando en Estudios Interdisciplinarios / Master in Media Arts / PhD in Interdisciplinary Studies"}<br></br><br></br>
         {"Mi interes surge en la investigacion y produccion con nuevas tecnologías en el arte, con el objetivo de desarrollar nuevos campos interactivos y cognitivos del espectador, así como la representación espacial del sonido y la imagen por medio del uso de interfaces gestuales de control y performance."}<br></br><br></br>
         {"En mi trabajo abordo distintos aspectos del lenguaje en el arte contemporaneo, como la instalacion, la performance y la improvisacion. Fui miembro y coordinador de la Comunidad Electroacustica de Chile CECh 2010 - 2018."}<br></br><br></br>
@@ -155,35 +158,44 @@ function Composer2(props) {
        </div>
        <br></br>
 
-      <iframe style={{
-      position: "absolute",    
-      marginLeft: "40%",
-      marginTop: "60%",
-      width: "45%",
+       <iframe style={{
+      position: "absolute",
+      marginLeft: "38%",
+      marginTop: "-30%",
+      widht: "45%",
       height: "23.27%",
       opacity: "1.0"
-       }} src="https://player.vimeo.com/video/399495243" width= "600px" height="0px" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+       }} src="https://player.vimeo.com/video/399495243" width= "45%" height="23.27%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
      
 
     <div>
       <Link to='/compositores' style={{
-               fontFamily: "'Raleway', sans-serif",
-               color: "black",
-               backgroundColor: "white",
-               fontSize: "100%",
-               fontWeight: "100",
-               fontStyle: "normal",
-               borderStyle: "solid",
-               marginLeft: "2.5%",
-               marginTop: "67%",
-               paddingTop: "0px",
-               borderWidth: "1px",
-               position: "absolute",
-               opacity: "1.0",
-               width: "8.5%"}} activeStyle={{color: 'red'}}>  Compositores  </Link>   
+              fontFamily: "'Raleway', sans-serif",
+              color: "black",
+              backgroundColor: "white",
+              fontSize: "20px",
+              fontWeight: "100",
+              fontStyle: "normal",
+              borderStyle: "solid",
+              marginLeft: "10px",
+
+              paddingTop: "0px",
+              borderWidth: "1px",
+              positions: "absolute",
+              opacity: "1.0",
+              width: "75%", 
+              marginBottom: "100px"}} activeStyle={{color: 'red'}}>  Compositores  </Link>   
     </div>   
     </div> 
     )
   }
 
   export default Composer2
+
+
+      marginLeft: "40%",
+      marginTop: "70%",
+      width: "100%",
+      heigth: "100%",
+      opacity: "1.0"
+       }}>

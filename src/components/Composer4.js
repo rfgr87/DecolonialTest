@@ -47,17 +47,16 @@ function Composer4(props) {
     return (
       <div style={{ 
       backgroundImage: `url(${image1})`,
-      height: "100%",
-      position: "absolute",
-      backgroundPosition: '0px 0px',
-      backgroundSize: "100% 100%",  
-      backgroundRepeat: "no-repeat",
-      paddingBottom: "80%",  
-      marginBottom: "100px",  
-      paddingTop: 24,
-      marginTop: -24,
-      marginLeft: 0,
-      paddingLeft: "10px",
+      height: "120%",
+        position: "absolute",
+        backgroundPosition: '0px 0px',
+        backgroundSize: "100% 100%",  
+        backgroundRepeat: "no-repeat",
+        width: "100%",
+        paddingBottom: "80%",  
+        paddingTop: 24,
+        marginTop: -24,
+        marginLeft:"0%"
       }}>
     <div>
      <h1 style={{
@@ -68,7 +67,7 @@ function Composer4(props) {
       fontWeight: "100",
       fontStyle: "normal",
       paddingTop: "10px",
-      marginLeft: "10px",
+      marginLeft: "1%",
       backgroundColor: "#6666FF",
       width: "50%",
       textWidth: "1px"
@@ -79,8 +78,8 @@ function Composer4(props) {
       style={{
       position: "absolute",
       color:"white", 
-      marginLeft: "550px",
-      marginTop: "60px",
+      marginLeft: "43%",
+      marginTop: "5%",
       paddingTop: "0px",
       width: "100%",
       textWidth: "10px",
@@ -98,8 +97,8 @@ function Composer4(props) {
       style={{
       position: "absolute",
       color:"white", 
-      marginLeft: "550px",
-      marginTop: "220px",
+      marginLeft: "43%",
+      marginTop: "17%",
       paddingTop: "0px",
       width: "100%",
       textWidth: "10px",
@@ -116,8 +115,8 @@ function Composer4(props) {
       style={{
       position: "absolute",
       color:"white", 
-      marginLeft: "550px",
-      marginTop: "380px",
+      marginLeft: "43%",
+      marginTop: "29%",
       paddingTop: "0px",
       width: "100%",
       textWidth: "10px",
@@ -135,8 +134,8 @@ function Composer4(props) {
       style={{
       position: "absolute",
       color:"white", 
-      marginLeft: "550px",
-      marginTop: "540px",
+      marginLeft: "43%",      
+      marginTop: "41%",
       paddingTop: "0px",
       width: "100%",
       textWidth: "10px",
@@ -153,8 +152,8 @@ function Composer4(props) {
       style={{
       position: "absolute",
       color:"white", 
-      marginLeft: "550px",
-      marginTop: "700px",
+      marginLeft: "43%",
+      marginTop: "53%",
       paddingTop: "0px",
       width: "100%",
       textWidth: "10px",
@@ -171,8 +170,8 @@ function Composer4(props) {
       style={{
       position: "absolute",
       color:"white", 
-      marginLeft: "550px",
-      marginTop: "860px",
+      marginLeft: "43%",
+      marginTop: "65%",
       paddingTop: "0px",
       width: "100%",
       textWidth: "10px",
@@ -189,7 +188,7 @@ function Composer4(props) {
       marginLeft: "250px",
       positions: "absolute",
       opacity: "1.0",
-      marginLeft: "10px",
+      marginLeft: "1%",
       marginBottom: "-300px",
       height: "620px",
       widht: "400px",
@@ -200,20 +199,20 @@ function Composer4(props) {
 
       <div>
       <h5 style={{
-      position: "relative",
+      position: "absolute",
       color:"black", 
       fontFamily: "Menlo",
-      fontSize: "15px",
+      fontSize: "80%",
       fontWeight: "100",
       fontStyle: "normal",
-      marginLeft: "10px",
-      marginTop: "0",
+      marginLeft: "1%",
+      marginTop: "-0.5%",
       border: "black",
       borderWidth: "3px",
       borderStyle: "outset",
       padding: "25px",
       backgroundColor: "white",
-      width: "32%",
+      width: "30%",
       textWidth: "10px",
       opacity: "0.7", 
       justifyText: "left",
@@ -231,18 +230,17 @@ function Composer4(props) {
               fontFamily: "'Raleway', sans-serif",
               color: "black",
               backgroundColor: "white",
-              fontSize: "20px",
+              fontSize: "100%",
               fontWeight: "100",
               fontStyle: "normal",
               borderStyle: "solid",
-              marginLeft: "10px",
-
+              marginLeft: "1%",
+              marginTop: "45%",
               paddingTop: "0px",
               borderWidth: "1px",
               position: "absolute",
               opacity: "1.0",
-              width: "10.5%", 
-              marginBottom: "100px"}} activeStyle={{color: 'red'}}>  Compositores  </Link>   
+              width: "10.0%"}} activeStyle={{color: 'red'}}>  Compositores  </Link>   
     </div>   
    
     </div> 

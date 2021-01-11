@@ -47,17 +47,16 @@ function Composer3(props) {
     return (
       <div style={{ 
       backgroundImage: `url(${image1})`,
-      height: "165%",
+      height: "120%",
       position: "absolute",
       backgroundPosition: '0px 0px',
       backgroundSize: "100% 100%",  
       backgroundRepeat: "no-repeat",
+      width: "100%",
       paddingBottom: "80%",  
-      marginBottom: "100px",  
       paddingTop: 24,
       marginTop: -24,
-      marginLeft: 0,
-      paddingLeft: "10px",
+      marginLeft:"0%"
       }}>
     <div>
      <h1 style={{
@@ -68,7 +67,7 @@ function Composer3(props) {
       fontWeight: "100",
       fontStyle: "normal",
       paddingTop: "10px",
-      marginLeft: "10px",
+      marginLeft: "1%",
       backgroundColor: "#6666FF",
       width: "50%",
       textWidth: "1px"
@@ -79,7 +78,7 @@ function Composer3(props) {
       marginLeft: "250px",
       positions: "absolute",
       opacity: "1.0",
-      marginLeft: "10px",
+      marginLeft: "1%",
       marginBottom: "-300px",
       height: "620px",
       widht: "400px",
@@ -95,31 +94,26 @@ function Composer3(props) {
       fontSize: "30px",
       fontWeight: "100",
       fontStyle: "normal",
-      marginLeft: "440px",
-      marginTop: "-220px",
+      marginLeft: "35%",
+      marginTop: "-17%",
       paddingTop: "0px",
+      width: "53%",
+      height: "21%",
       textWidth: "10px",
       justifyText: "left",
       opacity: "1.0"
-    }} width="660" height="415" src="https://www.youtube.com/embed/s15OA9nZ7AY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       }} width="200px" height="150px" src="https://www.youtube.com/embed/s15OA9nZ7AY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
           
       <iframe style={{
       position: "absolute",
-      color:"white", 
-      fontFamily: "'Raleway', sans-serif",
-      fontSize: "30px",
-      fontWeight: "100",
-      fontStyle: "normal",
-      marginLeft: "460px",
-      marginTop: "210px",
+      marginLeft: "35%",
+      marginTop: "14%",
       paddingTop: "0px",
-      width: "500px",
-      textWidth: "10px",
-      justifyText: "left",
-      opacity: "1.0"
-       }} width="560" height="315" src="https://www.youtube.com/embed/HA49X3KUaA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      width: "50%",
+      height: "20.4%"
+       }} width="315"  height="560" src="https://www.youtube.com/embed/HA49X3KUaA8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       <iframe style={{
       position: "absolute",
@@ -128,35 +122,33 @@ function Composer3(props) {
       fontSize: "30px",
       fontWeight: "100",
       fontStyle: "normal",
-      marginLeft: "460px",
-      marginTop: "520px",
+      marginLeft: "35%",
+      marginTop: "44%",
       paddingTop: "0px",
-      width: "500px",
-      textWidth: "10px",
-      justifyText: "left",
-      opacity: "1.0"
-    }} width="560" height="315" src="https://www.youtube.com/embed/S-Y4cWhUE5I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      width: "50%",
+      height: "20.4%"
+       }} width="315"  height="560" src="https://www.youtube.com/embed/S-Y4cWhUE5I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     <div>
       <h5 style={{
-      position: "relative",
-      color:"black", 
-      fontFamily: "Menlo",
-      fontSize: "15px",
-      fontWeight: "100",
-      fontStyle: "normal",
-      marginLeft: "10px",
-      marginTop: "0",
-      border: "black",
-      borderWidth: "3px",
-      borderStyle: "outset",
-      padding: "25px",
-      backgroundColor: "white",
-      width: "25%",
-      textWidth: "10px",
-      opacity: "0.7", 
-      justifyText: "left",
-      opacity: "1.0"
+       position: "absolute",
+       color:"black", 
+       fontFamily: "Menlo",
+       fontSize: "80%",
+       fontWeight: "100",
+       fontStyle: "normal",
+       marginLeft: "1%",
+       marginTop: "-0.5%",
+       border: "black",
+       borderWidth: "3px",
+       borderStyle: "outset",
+       padding: "25px",
+       backgroundColor: "white",
+       width: "26%",
+       textWidth: "10px",
+       opacity: "0.7", 
+       justifyText: "left",
+       opacity: "1.0"
        }}> {"Diego Villaseñor (Videco) es compositor, improvisador, multi-instrumentista, filósofo y programador, cuya práctica e investigación se desarrolla en torno a los siguientes temas: creación colectiva, composición modular e inspirada en sistemas naturales (particularmente ecosistemas), ecoacústica, comprovisación, desarrollo de técnicas extendidas, politemporalidad, microtonalidad, síntesis sonora mediante instrumentos acústicos, ontología del proceso creativo-musical."}<br></br><br></br>
          </h5>
        </div>
@@ -167,18 +159,17 @@ function Composer3(props) {
               fontFamily: "'Raleway', sans-serif",
               color: "black",
               backgroundColor: "white",
-              fontSize: "20px",
+              fontSize: "100%",
               fontWeight: "100",
               fontStyle: "normal",
               borderStyle: "solid",
-              marginLeft: "10px",
-
+              marginLeft: "1%",
+              marginTop: "23%",
               paddingTop: "0px",
               borderWidth: "1px",
               position: "absolute",
               opacity: "1.0",
-              width: "10.5%", 
-              marginBottom: "100px"}} activeStyle={{color: 'red'}}>  Compositores  </Link>   
+              width: "8.5%"}} activeStyle={{color: 'red'}}>  Compositores  </Link>   
     </div>   
     <a style={{
               fontFamily: "'Raleway', sans-serif",
@@ -189,13 +180,12 @@ function Composer3(props) {
               fontStyle: "normal",
               borderStyle: "solid",
               marginLeft: "980px",
-              marginTop: "-800px",
+              marginTop: "-30%",
               padding: "10px",
               borderWidth: "5px",
               position: "absolute",
               opacity: "1.0",
-              width: "15%", 
-              marginBottom: "100px"}} target="_blank" href="https://iclc.toplap.org/2019/papers/paper91.pdf"> Nanc-in-a-Can Canon Generator </a>
+              width: "15%"}} target="_blank" href="https://iclc.toplap.org/2019/papers/paper91.pdf"> Nanc-in-a-Can Canon Generator </a>
 
         <a style={{
               fontFamily: "'Raleway', sans-serif",
@@ -207,12 +197,12 @@ function Composer3(props) {
               borderStyle: "solid",
               padding: "10px",
               marginLeft: "980px",
-              marginTop: "-700px",
+              marginTop: "-23%",
               borderWidth: "5px",
               position: "absolute",
               opacity: "1.0",
               width: "11.1%", 
-              marginBottom: "100px"}} target="_blank" href="https://iclc.toplap.org/2019/papers/paper91.pdf"> [Videcoic One] </a>
+              }} target="_blank" href="https://iclc.toplap.org/2019/papers/paper91.pdf"> [Videcoic One] </a>
     </div> 
     )
   }
