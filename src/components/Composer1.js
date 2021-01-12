@@ -211,19 +211,19 @@ function Composer1(props) {
       <iframe style={{
       position: "absolute",
       marginLeft: "750px",
-      marginTop: "74%"
+      marginTop: "75%"
        }} width="20%" height="15%" src="https://www.youtube.com/embed/XO6nlItOFww" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
       <iframe style={{
       position: "absolute",
       marginLeft: "57.5%",
-      marginTop: "74%"
+      marginTop: "75%"
        }} width="20%" height="15%" src="https://www.youtube.com/embed/C0Thg24vmag" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       
       <iframe style={{
       position: "absolute",
       marginLeft: "750px",
-      marginTop: "88%"
+      marginTop: "89%"
        }} width="20%" height="15%" src="https://www.youtube.com/embed/lZIuDlVJYQM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div>
@@ -236,7 +236,7 @@ function Composer1(props) {
         fontStyle: "normal",
         borderStyle: "solid",
         marginLeft: "12.5%",
-        marginTop: "100%",
+        marginTop: "68%",
         paddingTop: "0px",
         borderWidth: "1px",
         position: "absolute",

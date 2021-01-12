@@ -62,7 +62,7 @@ function Composers(props) {
               opacity: "0.7",
               width: "75%",
               marginTop: "10"}} activeStyle={{color: 'red'}}> Roy F Guzmán</Link><br></br><br></br>
-            <Link to='/composer2'
+              <Link to='/composer2'
             style={{
               color:"white", 
               fontFamily: "'Raleway', sans-serif",
@@ -78,7 +78,7 @@ function Composers(props) {
               opacity: "0.7",
               width: "75%", 
               marginTop: "10"}} activeStyle={{color: 'red'}}> Renzo Felinich</Link><br></br><br></br>
-              <Link to='/composer3'
+               <Link to='/composer3'
               style={{
               color:"white", 
               fontFamily: "'Raleway', sans-serif",
