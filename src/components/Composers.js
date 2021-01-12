@@ -110,6 +110,22 @@ function Composers(props) {
               opacity: "0.7",
               width: "75%", 
               marginTop: "10"}} activeStyle={{color: 'red'}}> Felipe Corredor Tréllez</Link><br></br><br></br>
+               <Link to='/composer5'
+              style={{
+              color:"white", 
+              fontFamily: "'Raleway', sans-serif",
+              fontSize: "20px",
+              fontWeight: "100",
+              fontStyle: "normal",
+              paddingTop: "0px",
+              border: "blue",
+              borderWidth: "1px",
+              borderStyle: "outset",
+              positions: "relative",
+              backgroundColor: "#000000",
+              opacity: "0.7",
+              width: "75%", 
+              marginTop: "10"}} activeStyle={{color: 'red'}}> Daniel Flores Días</Link><br></br><br></br>
               
 {/*               
               <Link to='/composer5'
