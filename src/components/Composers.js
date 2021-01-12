@@ -77,7 +77,7 @@ function Composers(props) {
               backgroundColor: "#000000",
               opacity: "0.7",
               width: "75%", 
-              marginTop: "10"}} activeStyle={{color: 'red'}}> Renzo Felinich</Link><br></br><br></br>
+              marginTop: "10"}} activeStyle={{color: 'red'}}> Renzo Filinich</Link><br></br><br></br>
                <Link to='/composer3'
               style={{
               color:"white", 
