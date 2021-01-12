@@ -76,15 +76,15 @@ function Composer4(props) {
 
       <div
       style={{
-      position: "absolute",
-      color:"white", 
-      marginLeft: "43%",
-      marginTop: "5%",
-      paddingTop: "0px",
-      width: "100%",
-      textWidth: "10px",
-      justifyText: "left",
-      opacity: "1.0"
+        position: "absolute",
+        color:"white", 
+        marginLeft: "43%",
+        marginTop: "18%",
+        paddingTop: "0px",
+        width: "100%",
+        textWidth: "10px",
+        justifyText: "left",
+        opacity: "1.0"
        }}>
       <ReactPlayer width="40%"
             height="70%"
@@ -95,15 +95,15 @@ function Composer4(props) {
 
       <div
       style={{
-      position: "absolute",
-      color:"white", 
-      marginLeft: "43%",
-      marginTop: "17%",
-      paddingTop: "0px",
-      width: "100%",
-      textWidth: "10px",
-      justifyText: "left",
-      opacity: "1.0"
+        position: "absolute",
+        color:"white", 
+        marginLeft: "43%",
+        marginTop: "31%",
+        paddingTop: "0px",
+        width: "100%",
+        textWidth: "10px",
+        justifyText: "left",
+        opacity: "1.0"
        }}>
       <ReactPlayer width="40%"
             height="70%"
@@ -113,15 +113,15 @@ function Composer4(props) {
 
       <div
       style={{
-      position: "absolute",
-      color:"white", 
-      marginLeft: "43%",
-      marginTop: "29%",
-      paddingTop: "0px",
-      width: "100%",
-      textWidth: "10px",
-      justifyText: "left",
-      opacity: "1.0"
+        position: "absolute",
+        color:"white", 
+        marginLeft: "43%",      
+        marginTop: "44%",
+        paddingTop: "0px",
+        width: "100%",
+        textWidth: "10px",
+        justifyText: "left",
+        opacity: "1.0"
        }}>
       <ReactPlayer width="40%"
             height="70%"
@@ -132,15 +132,15 @@ function Composer4(props) {
 
       <div
       style={{
-      position: "absolute",
-      color:"white", 
-      marginLeft: "43%",      
-      marginTop: "41%",
-      paddingTop: "0px",
-      width: "100%",
-      textWidth: "10px",
-      justifyText: "left",
-      opacity: "1.0"
+        position: "absolute",
+        color:"white", 
+        marginLeft: "43%",
+        marginTop: "57%",
+        paddingTop: "0px",
+        width: "100%",
+        textWidth: "10px",
+        justifyText: "left",
+        opacity: "1.0"
        }}>
       <ReactPlayer width="40%"
             height="70%"
@@ -150,15 +150,15 @@ function Composer4(props) {
 
       <div
       style={{
-      position: "absolute",
-      color:"white", 
-      marginLeft: "43%",
-      marginTop: "53%",
-      paddingTop: "0px",
-      width: "100%",
-      textWidth: "10px",
-      justifyText: "left",
-      opacity: "1.0"
+        position: "absolute",
+        color:"white", 
+        marginLeft: "43%",
+        marginTop: "70%",
+        paddingTop: "0px",
+        width: "100%",
+        textWidth: "10px",
+        justifyText: "left",
+        opacity: "1.0"
        }}>
       <ReactPlayer width="40%"
             height="70%"
@@ -168,15 +168,15 @@ function Composer4(props) {
 
       <div
       style={{
-      position: "absolute",
-      color:"white", 
-      marginLeft: "43%",
-      marginTop: "65%",
-      paddingTop: "0px",
-      width: "100%",
-      textWidth: "10px",
-      justifyText: "left",
-      opacity: "1.0"
+        position: "absolute",
+        color:"white", 
+        marginLeft: "43%",
+        marginTop: "83%",
+        paddingTop: "0px",
+        width: "100%",
+        textWidth: "10px",
+        justifyText: "left",
+        opacity: "1.0"
        }}>
       <ReactPlayer width="40%"
             height="70%"
