@@ -82,7 +82,7 @@ function MainFeaturedPost(props) {
       marginLeft: "0%",
       marginTop: "57%",
       backgroundImage: `url(${image1})`,
-      width: "1000%",
+      width: "205%",
       height: "5%"
        }}> 
      <br></br></h5>
