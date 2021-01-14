@@ -37,7 +37,7 @@ function Composer6(props) {
       backgroundColor: "#6666FF",
       width: "50%",
       textWidth: "1px"
-       }}>Felipe Corredor Tréllez</h1>
+       }}>Pedro Emanuel Franco Fraticelli</h1>
       </div>
 
       <div
