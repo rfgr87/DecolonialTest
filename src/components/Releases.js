@@ -99,6 +99,7 @@ function Releases(props) {
       src="https://bandcamp.com/EmbeddedPlayer/album=2610809688/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://decolonialrecords.bandcamp.com/album/axiomas-ind-genas">Axiomas Indígenas by Roy F Guzmán</a></iframe>    </div>
 
     <div>
+
     <iframe style={{
        position: "absolute",
        border: 0, 
@@ -106,6 +107,16 @@ function Releases(props) {
        height: "27%", 
        marginTop: "74%",
        marginLeft:  "12%"}} 
+       src="https://bandcamp.com/EmbeddedPlayer/album=834541099/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://decolonialrecords.bandcamp.com/album/propaganda-y-violencia">Propaganda y Violencia by Pedro Franco Fraticelli</a></iframe>       </div>
+
+    <div> 
+    <iframe style={{
+       position: "absolute",
+       border: 0, 
+       width: "20%", 
+       height: "27%", 
+       marginTop: "74%",
+       marginLeft:  "33%"}} 
        src="https://bandcamp.com/EmbeddedPlayer/album=3007672718/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://decolonialrecords.bandcamp.com/album/06-01-21-improvisaci-n-con-cuatro-puertorrique-o">[06-01-21] Improvisación con Cuatro Puertorriqueño by Roy F Guzmán</a></iframe>
        </div>
    
