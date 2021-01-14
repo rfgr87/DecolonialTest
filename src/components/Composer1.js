@@ -236,7 +236,7 @@ function Composer1(props) {
         fontStyle: "normal",
         borderStyle: "solid",
         marginLeft: "12.5%",
-        marginTop: "68%",
+        marginTop: "73%",
         paddingTop: "0px",
         borderWidth: "1px",
         position: "absolute",

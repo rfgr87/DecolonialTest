@@ -48,15 +48,15 @@ function Composer4(props) {
       <div style={{ 
       backgroundImage: `url(${image1})`,
       height: "120%",
-        position: "absolute",
-        backgroundPosition: '0px 0px',
-        backgroundSize: "100% 100%",  
-        backgroundRepeat: "no-repeat",
-        width: "100%",
-        paddingBottom: "80%",  
-        paddingTop: 24,
-        marginTop: -24,
-        marginLeft:"0%"
+      position: "absolute",
+      backgroundPosition: '0px 0px',
+      backgroundSize: "100% 100%",  
+      backgroundRepeat: "no-repeat",
+      width: "100%",
+      paddingBottom: "80%",  
+      paddingTop: 24,
+      marginTop: -24,
+      marginLeft:"0%"
       }}>
     <div>
      <h1 style={{
